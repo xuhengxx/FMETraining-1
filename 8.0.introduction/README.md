@@ -1,0 +1,4 @@
+# 第8章.使用FME Server REST API进行开发
+
+本章将介绍使用FME Server REST API进行开发。它将概述创建Web应用程序的最佳实践，如何托管应用程序以及如何设置应用程序。
+
