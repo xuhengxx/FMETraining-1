@@ -82,7 +82,7 @@
     * [练习：地址开放数据项目](4.00.practicaltransformeruse/4.05.managingattributes/4.exercise2.md)
   * [条件过滤](4.00.practicaltransformeruse/4.12.conditionalfiltering/README.md)
     * [Tester和TestFilter](4.00.practicaltransformeruse/4.12.conditionalfiltering/4.13.testertestfilter.md)
-    * [其他主要滤波转换器](4.00.practicaltransformeruse/4.12.conditionalfiltering/4.14.filtertransformers.md)
+    * [其他主要过滤转换器](4.00.practicaltransformeruse/4.12.conditionalfiltering/4.14.filtertransformers.md)
     * [练习：噪音控制法律项目](4.00.practicaltransformeruse/4.12.conditionalfiltering/4.exercise3.md)
   * [数据连接](4.00.practicaltransformeruse/4.15.datajoins/README.md)
     * [基于键的连接转换器](4.00.practicaltransformeruse/4.15.datajoins/4.16.attributejointransformers.md)
