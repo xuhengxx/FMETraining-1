@@ -54,7 +54,7 @@
 
 不要忘记您可以在Inspector的参数中设置Group-By，这可能有助于可视化哪个地址在哪个区域中。
 
-![](../../Images/Img1.218.Ex2.InitialDataProcessed.png)
+![](../../DesktopAdvanced1Attributes/Images/Img1.218.Ex2.InitialDataProcessed.png)
 
 您将看到如何为地址分配一个区域，表示它们与海岸线的距离，并且还具有海拔。
 
