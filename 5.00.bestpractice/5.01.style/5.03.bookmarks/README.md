@@ -41,5 +41,5 @@
 
 |  技巧 |
 | :--- |
-|  书签的上下文（右键单击）菜单显示选项以选择书签中的所有对象，或禁用所有这些对象，使其对测试有用：  [![](../../../.gitbook/assets/img5.009.bookmarkcontextmenu%20%281%29.png)](https://github.com/safesoftware/FMETraining/blob/Desktop-Basic-2018/DesktopBasic5BestPractice/Images/Img5.009.BookmarkContextMenu.png) |
+|  书签的上下文（右键单击）菜单显示选项以选择书签中的所有对象，或禁用所有这些对象，使其对测试有用：  <br>[![](../../../.gitbook/assets/img5.009.bookmarkcontextmenu%20%281%29.png)](https://github.com/safesoftware/FMETraining/blob/Desktop-Basic-2018/DesktopBasic5BestPractice/Images/Img5.009.BookmarkContextMenu.png) |
 
