@@ -67,7 +67,7 @@
     * [动态要素类](DesktopAdvanced3AdvancedR+W/3.12.DynamicFeatureTypeHandling.md)
     * [动态模式源](DesktopAdvanced3AdvancedR+W/3.13.DynamicSchemaSources.md)
     * [动态属性](DesktopAdvanced3AdvancedR+W/3.14.DynamicAttributeHandling.md)
-    * [动态几何对象](3.00.advancedreadwrite/3.11.dynamicschemahandling/3.15.dynamicgeometryhandling.md)
+    * [动态几何对象](DesktopAdvanced3AdvancedR+W/3.15.DynamicGeometryHandling.md)
   * [练习：动态社区地图转换（模式处理）](3.00.advancedreadwrite/3.exercise4.md)
   * [备用动态模式源](3.00.advancedreadwrite/3.16.advanceddynamicschemas.md)
   * [练习：动态社区地图转换（基于表格）](3.00.advancedreadwrite/3.exercise5.md)
