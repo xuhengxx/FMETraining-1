@@ -31,7 +31,7 @@
   * [日志文件解析](2.00.advancedworkspacedesign/2.04.logfileinterpretation/README.md)
     * [日志文件命令部分](2.00.advancedworkspacedesign/2.04.logfileinterpretation/2.05.logcommandlinesection.md)
     * [日志文件配置和设置部分](2.00.advancedworkspacedesign/2.04.logfileinterpretation/2.06.logconfigandsetupsection.md)
-    * [日志文件翻译/转换部分](2.00.advancedworkspacedesign/2.04.logfileinterpretation/2.07.translationtransformationsection.md)
+    * [日志文件变换/转换部分](2.00.advancedworkspacedesign/2.04.logfileinterpretation/2.07.translationtransformationsection.md)
     * [日志文件摘要部分](2.00.advancedworkspacedesign/2.04.logfileinterpretation/2.08.logsummarysection.md)
     * [日志文件时间戳解析](2.00.advancedworkspacedesign/2.04.logfileinterpretation/2.09.logtimings.md)
   * [练习：公园的公共艺术 - 日志文件](2.00.advancedworkspacedesign/2.exercise2.md)
