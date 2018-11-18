@@ -10,7 +10,7 @@
 
 例如，这里的作者根据要素的高程属性将一组数据“扇出”成多个输出：
 
- <img src="../DesktopAdvanced3AdvancedR%2BW/Images/Img3.012.FanoutGenericDiagram.png" alt="" style="max-width:100%;">
+ <img src="../../DesktopAdvanced3AdvancedR%2BW/Images/Img3.012.FanoutGenericDiagram.png" alt="" style="max-width:100%;">
 
 由于在写入数据时会发生扇出，因此在工作空间内不需要多个数据流。因此，这种技术可以轻松创建对工作空间画布影响最小的组。
 
