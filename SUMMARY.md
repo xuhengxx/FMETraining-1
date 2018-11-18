@@ -56,7 +56,7 @@
   * [基于Web的数据集](3.00.advancedreadwrite/3.02.webbaseddatasets.md)
   * [练习：基于Web的连接](3.00.advancedreadwrite/3.exercise1.md)
   * [扇出](3.00.advancedreadwrite/3.03.fanouts/README.md)
-    * [功能类型扇出](3.00.advancedreadwrite/3.03.fanouts/3.04.featuretypefanout.md)
+    * [要素类扇出](3.00.advancedreadwrite/3.03.fanouts/3.04.featuretypefanout.md)
     * [数据集扇出](3.00.advancedreadwrite/3.03.fanouts/3.05.datasetfanout.md)
   * [通用读模块和写模块](3.00.advancedreadwrite/3.06.genericreadwrite.md)
   * [练习：社区地图转换](3.00.advancedreadwrite/3.exercise2.md)
