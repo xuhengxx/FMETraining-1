@@ -28,14 +28,10 @@
 7. 编辑写模块模式
 8. 通过手动和通过变换器将读模式映射到写模块模式来重构数据
 9. 在Workbench中找到转换器并使用它们来转换数据内容
+10.在参数编辑器或转换器对话框中设置转换器参数
+11.使用“分组依据”选项定义要素组
+12.使用Workbench重新投影数据
+13.在实际场景中使用FME进行数据集成。
 
-   10.在参数编辑器或转换器对话框中设置转换器参数
-
-   11.使用“分组依据”选项定义要素组
-
-   12.使用Workbench重新投影数据
-
-   13.在实际场景中使用FME进行数据集成。
-
-![Whiteboard](https://github.com/xuhengxx/FMETraining-1/tree/d43ee42621ab51f5c49db5412aaa99638489efcf/Integration3LabExercises/Images/whiteboard.svg?sanitize=true)
+![](../Integration3LabExercises/Images/whiteboard.svg)
 
