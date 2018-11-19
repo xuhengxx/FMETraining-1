@@ -1,14 +1,14 @@
 # 结构转换
 
-转换数据集的结构需要使用FME来操作_模式_。FME使用术语“模式”，但您可能将其视为_数据模型_。
+转换数据集的结构需要使用FME来操作*模式*。FME使用术语“模式”，但您可能将其视为*数据模型*。
 
 ## 模式概念
 
-_**模式**_定义了一个数据集的结构。每个数据集都有其独特的模式; 它包括定义或限制其内容的图层，属性和其他规则。
+**模式**定义了一个数据集的结构。每个数据集都有其独特的模式; 它包括定义或限制其内容的图层，属性和其他规则。
 
 ### 模式表示
 
-创建新工作空间时，FME会扫描源数据集。它创建了一个_**读模块**_其图层显示在工作空间画布的左侧，而一个_**写模块**_的图层显示在工作空间画布的右侧：
+创建新工作空间时，FME会扫描源数据集。它创建了一个**读模块**其图层显示在工作空间画布的左侧，而一个**写模块**的图层显示在工作空间画布的右侧：
 
 [![](../../.gitbook/assets/img2.003.readerwriterfeaturetypes.png)](https://github.com/safesoftware/FMETraining/blob/Desktop-Basic-2018/DesktopBasic2Transformation/Images/Img2.003.ReaderWriterFeatureTypes.png)
 
@@ -22,7 +22,7 @@ _**模式**_定义了一个数据集的结构。每个数据集都有其独特�
 
 [![](../../.gitbook/assets/img2.004.readerfeaturetypepropertiesbutton.png)](https://github.com/safesoftware/FMETraining/blob/Desktop-Basic-2018/DesktopBasic2Transformation/Images/Img2.004.ReaderFeatureTypePropertiesButton.png)
 
-此“要素类”对话框有许多选项卡。在“参数”选项卡下面是一组常规参数，例如要素类的名称（在本例中为“库”），允许的几何类型以及父数据集的名称：
+此“要素类”对话框有许多选项卡。在“参数”选项卡下面是一组常规参数，例如要素类的名称（在本例中为“图书馆”），允许的几何类型以及父数据集的名称：
 
 [![](../../.gitbook/assets/img2.005.readerfeaturetypepropertiesdialog.png)](https://github.com/safesoftware/FMETraining/blob/Desktop-Basic-2018/DesktopBasic2Transformation/Images/Img2.005.ReaderFeatureTypePropertiesDialog.png)
 
@@ -40,7 +40,7 @@ _**模式**_定义了一个数据集的结构。每个数据集都有其独特�
 
 默认情况下，写模块模式（**“我们想要的”**）是源的镜像，因此转换的输出将是输入的副本。此要素允许用户无需进一步编辑即可从格式转换为格式（_快速转换_）。
 
-如果_“我们想要的”_与默认模式定义不同，我们必须使用称为_**模式编辑**_的技术来更改它。
+如果_“我们想要的”_与默认模式定义不同，我们必须使用称为**模式编辑**的技术来更改它。
 
 |  技巧 |
 | :--- |
