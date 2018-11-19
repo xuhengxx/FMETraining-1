@@ -16,6 +16,8 @@
 
 购买FME Server的原因之一是自动执行此过程，所以让我们开始实现它。
 
+---
+
 |  警察局长Webb-Mapp说...... |
 | :--- |
 |  如果您有丰富的FME Workbench经验 - **如果您的指导老师同意** - 只需打开上面标题中列出的工作空间并跳到第8步。 |
@@ -24,7 +26,7 @@
 **1）检查源数据**  
 为了简单起见 - 并且因为本课程是关于FME Server而不是FME Desktop - 我们将使用几个数据集。这些是：
 
-| 读者格式 | GML（地理标记语言） |
+| 读模块格式 | GML（地理标记语言） |
 | :--- | :--- |
 | 读模块数据集 | C:\FMEData2018\Data\Emergency\FireHalls.gml |
 
@@ -52,7 +54,7 @@
 | :--- | :--- |
 | 读模块数据集 | C:\FMEData2018\Data\Boundaries\VancouverNeighborhoods.kml |
 
-添加KML数据集时，系统会提示您选择要添加到工作空间的要素类型（图层）。我们需要的唯一一个叫做Neighborhoods（街区）：
+添加KML数据集时，系统会提示您选择要添加到工作空间的要素类（图层）。我们需要的唯一一个叫做Neighborhoods（街区）：
 
 [![](../.gitbook/assets/img1.200.ex1.kmlftselection.png)](https://github.com/xuhengxx/FMETraining-1/tree/f1cdae5373cf9425ee2d148732792713c9043d44/ServerAuthoring1Basics/Images/Img1.200.Ex1.KMLFTSelection.png)
 
@@ -62,7 +64,7 @@
 
   
 **4）添加Reprojector转换器**  
-将Reprojector转换器添加到工作空间。只需单击画布并开始键入Reprojector即可完成此操作。将其连接到“Neighborhoods”要素类型：
+将Reprojector转换器添加到工作空间。只需单击画布并开始键入Reprojector即可完成此操作。将其连接到“Neighborhoods”要素类：
 
 [![](../.gitbook/assets/img1.202.ex1.workspaceconnectedreprojector.png)](https://github.com/xuhengxx/FMETraining-1/tree/f1cdae5373cf9425ee2d148732792713c9043d44/ServerAuthoring1Basics/Images/Img1.202.Ex1.WorkspaceConnectedReprojector.png)
 
@@ -82,7 +84,7 @@
 
 [![](../.gitbook/assets/img1.204.ex1.addwriterdialog.png)](https://github.com/xuhengxx/FMETraining-1/tree/f1cdae5373cf9425ee2d148732792713c9043d44/ServerAuthoring1Basics/Images/Img1.204.Ex1.AddWriterDialog.png)
 
-单击确定。出现提示时，选择FireHalls和Neighborhoods作为要添加的要素类型，然后再次单击“确定”：
+单击确定。出现提示时，选择FireHalls和Neighborhoods作为要添加的要素类，然后再次单击“确定”：
 
 [![](../.gitbook/assets/img1.205.ex1.addwriterselectfts.png)](https://github.com/xuhengxx/FMETraining-1/tree/f1cdae5373cf9425ee2d148732792713c9043d44/ServerAuthoring1Basics/Images/Img1.205.Ex1.AddWriterSelectFTs.png)
 
@@ -94,7 +96,7 @@
 **6）添加Clipper Transformer**  
 将Clipper转换器添加到工作空间。这将用于按街区划分FireHall数据。
 
-将FireHalls要素类型连接到Clipper:Clippee端口以及Reprojector:Reprojected输出到Clipper:Clipper端口。您可能希望重新排列要素类型（或端口顺序）以避免重叠连接
+将FireHalls要素类连接到Clipper:Clippee端口以及Reprojector:Reprojected输出到Clipper:Clipper端口。您可能希望重新排列要素类（或端口顺序）以避免重叠连接
 
 [![](../.gitbook/assets/img1.207.ex1.workspaceconnected.png)](https://github.com/xuhengxx/FMETraining-1/tree/f1cdae5373cf9425ee2d148732792713c9043d44/ServerAuthoring1Basics/Images/Img1.207.Ex1.WorkspaceConnected.png)
 
@@ -104,15 +106,15 @@
 
 [![](../.gitbook/assets/img1.208.ex1.clipperparameters.png)](https://github.com/xuhengxx/FMETraining-1/tree/f1cdae5373cf9425ee2d148732792713c9043d44/ServerAuthoring1Basics/Images/Img1.208.Ex1.ClipperParameters.png)
 
-将Clipper:Inside端口连接到FireHalls写模块要素类型。还可以从Reprojector：Reprojected端口连接到Neighborhoods 写模块要素类型：
+将Clipper:Inside端口连接到FireHalls写模块要素类。还可以从Reprojector：Reprojected端口连接到Neighborhoods 写模块要素类：
 
 [![](../.gitbook/assets/img1.209.ex1.workspaceallconnected.png)](https://github.com/xuhengxx/FMETraining-1/tree/f1cdae5373cf9425ee2d148732792713c9043d44/ServerAuthoring1Basics/Images/Img1.209.Ex1.WorkspaceAllConnected.png)
 
   
-**7）设置Firehall要素类型名称**  
-最后，让我们为FireHalls写模块要素类型设置要素类型名称。
+**7）设置Firehall要素类名称**  
+最后，让我们为FireHalls写模块要素类设置要素类名称。
 
-检查其参数并在要素类型名称下输入：
+检查其参数并在要素类名称下输入：
 
 ```text
 FireHalls- @值（NeighborhoodName）
@@ -151,14 +153,14 @@ FireHalls- @值（NeighborhoodName）
 单击“验证”以确认连接并返回上一个对话框。确保选中新定义的连接，然后单击“下一步”继续。
 
   
-**10）发布到服务器：存储库选择**  
-下一个对话框提示您选择存储工作空间的存储库。
+**10）发布到服务器：仓库选择**  
+下一个对话框提示您选择存储工作空间的仓库。
 
-在本练习中，我们将通过单击“新建”按钮创建新的存储库。出现提示时输入名称Training。
+在本练习中，我们将通过单击“新建”按钮创建新的仓库。出现提示时输入名称Training。
 
 [![](../.gitbook/assets/img1.213.ex1.newrepository.png)](https://github.com/xuhengxx/FMETraining-1/tree/f1cdae5373cf9425ee2d148732792713c9043d44/ServerAuthoring1Basics/Images/Img1.213.Ex1.NewRepository.png)
 
-单击“确定”关闭“创建新存储库”对话框。输入工作空间的名称（如果它还没有）。勾选“上传数据文件”选项：
+单击“确定”关闭“创建新仓库”对话框。输入工作空间的名称（如果它还没有）。勾选“上传数据文件”选项：
 
 [![](../.gitbook/assets/img1.214.ex1.uploaddata.png)](https://github.com/xuhengxx/FMETraining-1/tree/f1cdae5373cf9425ee2d148732792713c9043d44/ServerAuthoring1Basics/Images/Img1.214.Ex1.UploadData.png)
 
@@ -174,7 +176,7 @@ FireHalls- @值（NeighborhoodName）
 
 ...并单击“发布”以完成发布工作空间。
 
-将工作空间传输到服务器后，日志窗口将显示一条消息，报告已将哪个工作空间发布到哪个存储库以及哪些服务。它看起来像这样：
+将工作空间传输到服务器后，日志窗口将显示一条消息，报告已将哪个工作空间发布到哪个仓库以及哪些服务。它看起来像这样：
 
 [![](../.gitbook/assets/img1.216.ex1.publishlog.png)](https://github.com/xuhengxx/FMETraining-1/tree/f1cdae5373cf9425ee2d148732792713c9043d44/ServerAuthoring1Basics/Images/Img1.216.Ex1.PublishLog.png)
 
@@ -195,7 +197,7 @@ FireHalls- @值（NeighborhoodName）
           <li>使用Clipper将属性值从一个要素传输到另一个要素</li>
           <li>根据属性的值重命名输出图层</li>
           <li>使用发布向导将工作空间发布到FME Server</li>
-          <li>使用发布向导在FME Server上创建存储库</li>
+          <li>使用发布向导在FME Server上创建仓库</li>
           <li>使用“发布向导”用“Job Submitter ”服务注册工作空间</li>
         </ul>
       </td>
