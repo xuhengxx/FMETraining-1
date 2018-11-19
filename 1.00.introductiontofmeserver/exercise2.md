@@ -8,6 +8,8 @@
 | 启动工作空间 | 无 |
 | 结束工作空间 | 无 |
 
+---
+
 对于本章的练习，您是当地城市GIS部门的技术分析师。您拥有使用FME Desktop的丰富经验，您的部门正在调查FME Server以评估其功能。
 
 市内有许多部门，您的任务之一是从每个部门获取数据并将它们合并到一个公司数据库中。
@@ -16,17 +18,24 @@
 
 在创建工作空间以执行此转换并将其发布到FME Server之后，您现在希望登录到服务器以运行该工作空间。
 
+---
+
 |  注意 |
 | :--- |
 | 在开始本练习之前， 您需要完成[练习1.1](https://safe-software.gitbooks.io/fme-server-authoring-training-2018/content/ServerAuthoring1Basics/Exercise1.html)。我们将运行已发布的Basics-Ex1-Complete.fmw工作空间（或任何您命名的工作空间）。 |
 
+---
   
 **1）连接到服务器**  
 要登录FME Server Web界面，请从开始菜单中选择Web界面选项，或者 - 在Web浏览器中 - 输入FME Server的地址。
 
+---
+
 |  技巧 |
 | :--- |
-|  当FME Server安装在物理或虚拟硬件上时，地址为http：// &lt;servername&gt; / fmeserver  如果您使用的是FME云，则地址为：http：// &lt;servername&gt; .fmecloud.com / fmeserver |
+|  当FME Server安装在物理或虚拟硬件上时，地址为http：// &lt;servername&gt; / fmeserver  <br>如果您使用的是FME云，则地址为：http：// &lt;servername&gt; .fmecloud.com / fmeserver |
+
+---
 
 这将打开正在使用的FME服务器的Web界面登录屏幕。
 
@@ -68,10 +77,13 @@
 
 [![](../.gitbook/assets/img1.223.ex2.licensinginfo.png)](https://github.com/xuhengxx/FMETraining-1/tree/f1cdae5373cf9425ee2d148732792713c9043d44/ServerAuthoring1Basics/Images/Img1.223.Ex2.LicensingInfo.png)
 
+---
+
 |  技巧 |
 | :--- |
 |  如果您的机器未经许可或缺少引擎，请与您的教师联系以获取故障排除提示。 |
 
+---
   
 **5）运行工作空间**  
 单击界面左上角的FME Server徽标，返回Web界面主页。
@@ -105,13 +117,19 @@
 
 您还可以在此页面上检查FME转换日志文件。
 
+---
+
 |  警察局长Webb-Mapp说...... |
 | :--- |
 |  请记住，此工作空间不会写入任何数据，只会将其发送给Null写模块。因此，现在，要查看任何结果，请在日志文件中搜索摘要。 |
 
+---
+
 |  高级练习 |
 | :--- |
-|  如果你想看到一个处于不同状态的作业，那么我们将不得不放慢一些工作空间。  在FME Workbench中打开工作空间并添加Decelerator转换器（例如，在Reprojector之前）。将其设置为每个要素延迟工作空间5秒。将工作空间发布回FME Server并重新运行它。  现在工作空间将需要30多秒才能运行，您应该能够在Running状态下找到它。此外，如果您快速连续运行三到四次，那么您将拥有比引擎更多的作业，并能够在排队状态下找到一些作业。 |
+|  如果你想看到一个处于不同状态的作业，那么我们将不得不放慢一些工作空间。  <br><br>在FME Workbench中打开工作空间并添加Decelerator转换器（例如，在Reprojector之前）。将其设置为每个要素延迟工作空间5秒。将工作空间发布回FME Server并重新运行它。  <br><br>现在工作空间将需要30多秒才能运行，您应该能够在Running状态下找到它。此外，如果您快速连续运行三到四次，那么您将拥有比引擎更多的作业，并能够在排队状态下找到一些作业。 |
+
+---
 
 <table>
   <thead>
