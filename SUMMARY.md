@@ -75,7 +75,7 @@
   * [Q + A答案](3.00.advancedreadwrite/3.18.questionanswers.md)
 * [高级参数使用](4.00.advancedparameteruse/README.md)
   * [FME参数](4.00.advancedparameteruse/4.01.fmeparameters.md)
-  * [用户参数](4.00.advancedparameteruse/4.02.userparameters.md)
+  * [用户参数](DesktopAdvanced4Parameters/4.02.userparameters.md)
   * [练习：参数化元数据编写器](4.00.advancedparameteruse/4.exercise1.md)
   * [参数类型](4.00.advancedparameteruse/4.03.parametertypes.md)
   * [链接参数](4.00.advancedparameteruse/4.04.linkingparameters.md)
