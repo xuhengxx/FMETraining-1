@@ -81,7 +81,7 @@
   * [链接参数](DesktopAdvanced4Parameters/4.04.linkingparameters.md)
   * [预链接参数](4.00.advancedparameteruse/4.05.prelinkedparameters.md)
   * [练习：代码审查一个同事的工作空间](4.00.advancedparameteruse/4.exercise2.md)
-  * [共享，嵌入和脚本参数](4.00.advancedparameteruse/4.06.sharedparameters.md)
+  * [共享，嵌入和脚本参数](DesktopAdvanced4Parameters/4.06.sharedparameters.md)
   * [参数设置](4.00.advancedparameteruse/4.07.parametersettings.md)
   * [用户参数和属性](4.00.advancedparameteruse/4.08.parametersandattributes.md)
   * [练习：地面维护项目](4.00.advancedparameteruse/4.exercise3.md)
