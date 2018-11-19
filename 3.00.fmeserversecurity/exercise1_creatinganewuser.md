@@ -12,7 +12,7 @@
 **1）连接到FME Server**  
 通过Windows“开始”菜单上的“Web Interface”选项或直接在Web浏览器（[http：// localhost / fmeserver](http://localhost/fmeserver)）中打开FME Server Web界面，然后使用用户名和密码_admin_登录。
 
-单击左侧边栏上“管理”标题下的“ _安全性”_以展开菜单，然后选择“ **用户”**以查看当前用户的列表。
+单击左侧边栏上“管理”标题下的*“ 安全性”*以展开菜单，然后选择**"用户"** 以查看当前用户的列表。
 
   
 **2）创建新用户**  
@@ -30,7 +30,7 @@
 **3）配置权限**  
 现在我们已经指定了新用户帐户的凭据，让我们为他们有权访问的FME Server中的功能和项目设置权限。
 
-通过选择“ **加载模板”**按钮，您可以选择从现有角色复制权限。
+通过选择**“加载模板”** 按钮，您可以选择从现有角色复制权限。
 
 [![](../.gitbook/assets/3.202.ex1.newuserloadtemplate.png)](https://github.com/xuhengxx/FMETraining-1/tree/c60c1e291fd9e762b26517c54e4fd7ea9f748055/ServerAdmin3Security/Images/3.202.Ex1.NewUserLoadTemplate.png)
 
@@ -38,11 +38,11 @@
 
 配置权限以匹配以下内容：
 
-* **运行工作空间：**访问
-* **作业：**访问
-* **计划表：**创建
-* **库：**创建
-* **项目：**创建
+* **运行工作空间：** 访问
+* **作业：** 访问
+* **计划表：** 创建
+* **库：** 创建
+* **项目：** 创建
 
 请注意，通过选择Create，将自动授予Access权限。
 
@@ -54,7 +54,7 @@
 
 注销管理员帐户或打开新的私人浏览窗口，然后使用我们刚刚创建的新用户帐户的凭据登录。
 
-请注意该用户如何只看到一组有限的菜单选项：运行工作空间，作业，计划，库和项目。
+请注意该用户如何只看到一组有限的菜单选项：运行工作空间，作业，计划，仓库和项目。
 
 [![](../.gitbook/assets/3.203.ex1.newuserhomepage.png)](https://github.com/xuhengxx/FMETraining-1/tree/c60c1e291fd9e762b26517c54e4fd7ea9f748055/ServerAdmin3Security/Images/3.203.Ex1.NewUserHomepage.png)
 
