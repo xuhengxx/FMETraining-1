@@ -18,7 +18,7 @@
 
 向下滚动到“引擎和许可”页面的底部，然后选择“ **创建队列”**。
 
-[![](https://github.com/xuhengxx/FMETraining-1/tree/c60c1e291fd9e762b26517c54e4fd7ea9f748055/ServerAdmin4Scalability/FMETraining-1%20_%20Exercise1_JobQueues_files/4.201.Ex1.Create_JobQueue.png)](https://github.com/domix2000/FMETraining-1/blob/Server-Admin-2018/ServerAdmin4Scalability/Images/4.201.Ex1.Create_JobQueue.png)
+![](../ServerAdmin4Scalability/Images/4.201.Ex1.Create_JobQueue.png)
 
 将其命名为_快速转换_，然后单击OK。
 
@@ -30,7 +30,7 @@
 
 接下来，将作业优先级指定为1。
 
-[![](https://github.com/xuhengxx/FMETraining-1/tree/c60c1e291fd9e762b26517c54e4fd7ea9f748055/ServerAdmin4Scalability/FMETraining-1%20_%20Exercise1_JobQueues_files/4.202.Ex1.JobQueue_SelectEngine.png)](https://github.com/domix2000/FMETraining-1/blob/Server-Admin-2018/ServerAdmin4Scalability/Images/4.202.Ex1.JobQueue_SelectEngine.png)
+![](../ServerAdmin4Scalability/Images/4.202.Ex1.JobQueue_SelectEngine.png)
 
 要保存编辑，请再次单击编辑按钮。
 
@@ -42,13 +42,13 @@
 
 添加**Creator**转换器并将其连接到**Logger**转换器。
 
-[![](https://github.com/xuhengxx/FMETraining-1/tree/c60c1e291fd9e762b26517c54e4fd7ea9f748055/ServerAdmin4Scalability/FMETraining-1%20_%20Exercise1_JobQueues_files/4.203.Ex1.JobQueue_Workspace.png)](https://github.com/domix2000/FMETraining-1/blob/Server-Admin-2018/ServerAdmin4Scalability/Images/4.203.Ex1.JobQueue_Workspace.png)
+![](../ServerAdmin4Scalability/Images/4.203.Ex1.JobQueue_Workspace.png)
 
   
 **4）发布到FME Server**  
 通过从FME Workbench的File菜单中选择**Publish to FME Server**，将工作空间**发布到FME Server**：
 
-[![](https://github.com/xuhengxx/FMETraining-1/tree/c60c1e291fd9e762b26517c54e4fd7ea9f748055/ServerAdmin4Scalability/FMETraining-1%20_%20Exercise1_JobQueues_files/4.204.Ex1.PublishToServer.png)](https://github.com/domix2000/FMETraining-1/blob/Server-Admin-2018/ServerAdmin4Scalability/Images/4.204.Ex1.PublishToServer.png)
+![](../ServerAdmin4Scalability/Images/4.204.Ex1.PublishToServer.png)
 
 在“发布到FME服务器向导”中提示时，连接到FME Server，然后将工作空间发布到：
 
@@ -73,7 +73,7 @@
 
 接下来，展开“ 运行工作空间”页面上的“ **高级”**选项。将_Job Queues_参数设置为**QuickTranslations**（步骤1中创建的队列的名称）：
 
-[![](https://github.com/xuhengxx/FMETraining-1/tree/c60c1e291fd9e762b26517c54e4fd7ea9f748055/ServerAdmin4Scalability/FMETraining-1%20_%20Exercise1_JobQueues_files/4.205.Ex1.RunWorkspace_JobQueue.png)](https://github.com/domix2000/FMETraining-1/blob/Server-Admin-2018/ServerAdmin4Scalability/Images/4.205.Ex1.RunWorkspace_JobQueue.png)
+![](../ServerAdmin4Scalability/Images/4.205.Ex1.RunWorkspace_JobQueue.png)
 
 单击**“**运行工作空间”页面底部的“运行”。
 
@@ -87,11 +87,11 @@
 
 单击以展开“ **请求数据（Request Data）”**部分。在**queue**参数旁边，您将看到指定作业队列的名称：
 
-[![](https://github.com/xuhengxx/FMETraining-1/tree/c60c1e291fd9e762b26517c54e4fd7ea9f748055/ServerAdmin4Scalability/FMETraining-1%20_%20Exercise1_JobQueues_files/4.206.Ex1.VerifyJobQueue_Success.png)](https://github.com/domix2000/FMETraining-1/blob/Server-Admin-2018/ServerAdmin4Scalability/Images/4.206.Ex1.VerifyJobQueue_Success.png)
+![](../ServerAdmin4Scalability/Images/4.206.Ex1.VerifyJobQueue_Success.png)
 
 返回“ _作业”&gt;“已完成”_以验证作业是否已发送到正确的引擎。
 
-[![](https://github.com/xuhengxx/FMETraining-1/tree/c60c1e291fd9e762b26517c54e4fd7ea9f748055/ServerAdmin4Scalability/FMETraining-1%20_%20Exercise1_JobQueues_files/4.207.Ex1.CompletedJobQueue.png)](https://github.com/domix2000/FMETraining-1/blob/Server-Admin-2018/ServerAdmin4Scalability/Images/4.207.Ex1.CompletedJobQueue.png)
+![](../ServerAdmin4Scalability/Images/4.207.Ex1.CompletedJobQueue.png)
 
 在测试时，您可以考虑多次提交作业以进行额外的验证步骤，并且安心，但这当然不是必要的！
 
