@@ -70,7 +70,7 @@
     * [动态几何对象](DesktopAdvanced3AdvancedR+W/3.15.DynamicGeometryHandling.md)
   * [练习：动态社区地图转换（模式处理）](DesktopAdvanced3AdvancedR+W/3.exercise4.md)
   * [备用动态模式源](3.00.advancedreadwrite/3.16.advanceddynamicschemas.md)
-  * [练习：动态社区地图转换（基于表格）](3.00.advancedreadwrite/3.exercise5.md)
+  * [练习：动态社区地图转换（基于表格）](DesktopAdvanced3AdvancedR+W/3.exercise5.md)
   * [模块复习](3.00.advancedreadwrite/3.17.modulereview.md)
   * [Q + A答案](3.00.advancedreadwrite/3.18.questionanswers.md)
 * [高级参数使用](4.00.advancedparameteruse/README.md)
