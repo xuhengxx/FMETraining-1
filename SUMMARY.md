@@ -55,7 +55,7 @@
   * [找回密码](5.00.fmeservercustomization/5.10.passwordrecovery.md)
   * [启用加密](5.00.fmeservercustomization/5.11.encryption.md)
   * [章节回顾](5.00.fmeservercustomization/5.12.chapterreview.md)
-  * [问答答案](5.00.fmeservercustomization/5.13.questionanswers.md)
+  * [问题答案](5.00.fmeservercustomization/5.13.questionanswers.md)
 * [第6章：迁移和升级](6.00.migrationandupgrades/README.md)
   * [备份和迁移](6.00.migrationandupgrades/6.01.backupandmigration.md)
   * [备份配置文件](6.00.migrationandupgrades/6.02.backupconfigfiles.md)
