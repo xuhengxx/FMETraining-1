@@ -1,7 +1,3 @@
----
-description: FME Server管理培训手册
----
-
 # 简介
 
 这是FME Server系统管理培训课程的手册。
