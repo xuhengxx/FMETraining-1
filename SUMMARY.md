@@ -10,7 +10,7 @@
   * [FME Server架构](1.00.introductiontofmeserver/1.03.fmeserverarchitecture.md)
   * [部署FME Server](1.00.introductiontofmeserver/1.04.deployingfmeserver.md)
   * [Workbench和FME Server](1.00.introductiontofmeserver/1.05.workbenchandserver.md)
-  * [发布工作空间](1.00.introductiontofmeserver/1.06.publishingworkspaces.md)
+  * [发布工作空间](ServerAuthoring1Basics/1.06.publishingworkspaces.md)
   * [练习1.1：每日数据库更新：发布工作空间](1.00.introductiontofmeserver/exercise1.md)
   * [Web界面基础知识](1.00.introductiontofmeserver/1.07.webinterfacebasics.md)
   * [引擎和许可](1.00.introductiontofmeserver/1.08.enginesandlicensing.md)
