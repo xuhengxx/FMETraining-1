@@ -16,7 +16,7 @@
 
   
 **2）创建新用户**  
-让我们为新分析师创建一个新的FME Server用户帐户。单击“ **新建”**以添加新用户：
+让我们为新分析师创建一个新的FME Server用户帐户。单击**新建**以添加新用户：
 
 [![](../.gitbook/assets/3.201.ex1.createnewuser.png)](https://github.com/xuhengxx/FMETraining-1/tree/c60c1e291fd9e762b26517c54e4fd7ea9f748055/ServerAdmin3Security/Images/3.201.Ex1.CreateNewUser.png)
 
