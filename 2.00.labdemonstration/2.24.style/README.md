@@ -23,7 +23,9 @@
 
 [![](../../.gitbook/assets/img5.001.badlydrawnworkspacecloseup.png)](https://github.com/safesoftware/FMETraining/blob/Desktop-Basic-2018/DesktopBasic5BestPractice/Images/Img5.001.BadlyDrawnWorkspaceCloseup.png)
 
+---
+
 |  Interop阿姨说...... |
 | :--- |
-|  我是Interop阿姨。我写了一篇博客，帮助用户解决各种FME问题。  正如我常说的，大小无关紧要！您应该始终使用最佳实践，无论是小型工作空间还是培训练习，还是大型项目。养成这个习惯有助于你的小项目的可扩展性。  如果您从一开始就没有很好地设计工作空间，那么在您处理工作时，编辑将变得越来越难。 |
+|  我是Interop阿姨。我写了一篇博客，帮助用户解决各种FME问题。  <br><br>正如我常说的，大小无关紧要！您应该始终使用最佳实践，无论是小型工作空间还是培训练习，还是大型项目。养成这个习惯有助于你的小项目的可扩展性。  <br><br>如果您从一开始就没有很好地设计工作空间，那么在您处理工作时，编辑将变得越来越难。 |
 
