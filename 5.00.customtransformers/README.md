@@ -77,7 +77,7 @@ MeasureInterpolator是FME Hub上的自定义转换器。
 
 这是可以编辑之前输入的信息 - 名称，类别，描述等的地方。
 
-|  大副Transformer说...... |
+|  副驾驶Transformer说...... |
 | :--- |
-|  如果从头开始创建自定义转换器，没有选择任何原始转换器，它将从空白开始，如下所示： 然后您可以从头开始构建或编辑转换器。在主画布中创建内容并将其转换为自定义转换器，创建空的自定义转换器并在其中创建内容之间没有太大区别。  [![](../.gitbook/assets/img5.008.newcustomtransformerempty.png)](https://github.com/safesoftware/FMETraining/blob/Desktop-Advanced-2018/DesktopAdvanced5CustomTransformers/Images/Img5.008.NewCustomTransformerEmpty.png)   |
+|  如果从头开始创建自定义转换器，没有选择任何原始转换器，它将从空白开始，如下所示： <br><br>[![](../.gitbook/assets/img5.008.newcustomtransformerempty.png)](https://github.com/safesoftware/FMETraining/blob/Desktop-Advanced-2018/DesktopAdvanced5CustomTransformers/Images/Img5.008.NewCustomTransformerEmpty.png) <br><br>然后您可以从头开始构建或编辑转换器。在主画布中创建内容并将其转换为自定义转换器，创建空的自定义转换器并在其中创建内容之间没有太大区别。    |
 
