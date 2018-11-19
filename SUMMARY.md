@@ -77,7 +77,7 @@
   * [FME参数](4.00.advancedparameteruse/4.01.fmeparameters.md)
   * [用户参数](DesktopAdvanced4Parameters/4.02.userparameters.md)
   * [练习：参数化元数据编写器](4.00.advancedparameteruse/4.exercise1.md)
-  * [参数类型](4.00.advancedparameteruse/4.03.parametertypes.md)
+  * [参数类型](DesktopAdvanced4Parameters/4.03.parametertypes.md)
   * [链接参数](4.00.advancedparameteruse/4.04.linkingparameters.md)
   * [预链接参数](4.00.advancedparameteruse/4.05.prelinkedparameters.md)
   * [练习：代码评估一个同事的工作空间](4.00.advancedparameteruse/4.exercise2.md)
