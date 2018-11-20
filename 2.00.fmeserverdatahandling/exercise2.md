@@ -8,10 +8,13 @@
 | 启动工作空间 | C:\FMEData2018\Workspaces\ServerAuthoring\DataHandling-Ex2-Begin.fmw |
 | 结束工作空间 | C:\FMEData2018\Workspaces\ServerAuthoring\DataHandling-Ex2-Complete.fmw |
 
+---
+
 您已经（练习2.1）创建了一个工作空间来执行转换，并将其发布到FME Server; 数据和使用临时上传的数据。
 
 但是，此类数据管理工具并不特别适合长期项目，因此此处的任务是升级工作空间以使用存储在资源文件夹中的数据集。我们可以存储源数据和写入目标数据。
 
+---
   
 **1）打开FME Server Web界面**  
 使用管理员帐户（例如admin / admin）登录FME Server Web界面。单击菜单栏上的“资源”以导航到资源管理页面。
@@ -30,7 +33,7 @@
 **3）上传源数据集**  
 浏览到Input文件夹，单击Upload按钮，然后选择Files。上传当前转换的源数据集：
 
-| 读模块数据集 | C：\ FMEData2018 \ Data \ Elections \ ElectionVoting.gml C：\ FMEData2018 \ Data \ Elections \ ElectionVoting.xsd C：\ FMEData2018 \ Data \ Boundaries \ VancouverNeighborhoods.kml |
+| 读模块数据集 | C：\ FMEData2018 \ Data \ Elections \ ElectionVoting.gml <br>C：\ FMEData2018 \ Data \ Elections \ ElectionVoting.xsd <br>C：\ FMEData2018 \ Data \ Boundaries \ VancouverNeighborhoods.kml |
 | :--- | :--- |
 
 
@@ -54,8 +57,8 @@
 [![](../.gitbook/assets/img2.217.ex2.addedgeodatabasewriter.png)](https://github.com/xuhengxx/FMETraining-1/tree/f1cdae5373cf9425ee2d148732792713c9043d44/ServerAuthoring2DataHandling/Images/Img2.217.Ex2.AddedGeodatabaseWriter.png)
 
   
-**5）移动要素类型**  
-依次检查每个写模块要素类型的参数对话框。对于每种类型，将它从NULL写模块移动到FILE GDB写模块，如下所示：
+**5）移动要素类**  
+依次检查每个写模块要素类的参数对话框。对于每种类型，将它从NULL写模块移动到FILE GDB写模块，如下所示：
 
 [![](../.gitbook/assets/img2.218.ex2.moveafeaturetype.png)](https://github.com/xuhengxx/FMETraining-1/tree/f1cdae5373cf9425ee2d148732792713c9043d44/ServerAuthoring2DataHandling/Images/Img2.218.Ex2.MoveAFeatureType.png)
 
@@ -63,9 +66,9 @@
 
 [![](../.gitbook/assets/img2.219.ex2.neighborfeaturetype.png)](https://github.com/xuhengxx/FMETraining-1/tree/f1cdae5373cf9425ee2d148732792713c9043d44/ServerAuthoring2DataHandling/Images/Img2.219.Ex2.NeighborFeatureType.png)
 
-对于VotingPlaces要素类型，几何参数应设置为geodb\_point。
+对于VotingPlaces要素类，几何参数应设置为geodb\_point。
 
-现在，这两种要素类型属于地理数据库写模块，如果您愿意，可以从“导航”窗口中删除NULL写模块。
+现在，这两种要素类属于地理数据库写模块，如果您愿意，可以从“导航”窗口中删除NULL写模块。
 
   
 **6）设置地理数据库\(Geodatabase\)参数**  
@@ -132,10 +135,13 @@ $（FME_SHAREDRESOURCE_DATA）/Election/Output/DepartmentData.gdb
 
 保存工作空间并将其发布回FME Server。
 
-|  姐姐直觉说...... |
+---
+
+|  Intuitive修女说...... |
 | :--- |
 |  这次您将无法在FME Workbench中测试运行工作空间，因为它无法识别共享资源参数。只有FME Server会返回该参数的值。 |
 
+---
   
 **11）重新运行工作空间**  
 现在在FME Server上运行工作空间。这次不会提示您使用参数来选择源（或目标）数据集，但是它们将从资源文件夹中使用。
