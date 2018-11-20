@@ -42,7 +42,7 @@
   * [9.3数据分发简介](9.0.chapterintroduction/9.3.introductionmap.md)
   * [9.4练习16-数据分布](9.0.chapterintroduction/9.4.exercisemap.md)
   * [9.5数据可视化简介](9.0.chapterintroduction/9.5.introductionvisualization.md)
-  * [9.6练习17-数据可视化](9.0.chapterintroduction/9.6.exercisevisualization.md)
+  * [9.6练习17-数据可视化](FMESERVER_RESTAPI9CustomApplications/9.6.exercisevisualization.md)
   * [9.7数据上传简介](9.0.chapterintroduction/9.7.introductiondataupload.md)
   * [9.8练习18-数据上传](9.0.chapterintroduction/9.8.exerciseupload.md)
   * [9.9练习19-数据验证申请](9.0.chapterintroduction/9.9.datavalidationexercise.md)
