@@ -1,12 +1,41 @@
 # 练习6.2：创作工作空间链
 
-|  练习6.2 |  编写工作空间链 |
-| :--- | :--- |
-| 数据 | 投票分区（GML（地理标记语言）） 地址（Esri地理数据库（File Geodb API）） |
-| 总体目标 | 创建工作空间以： - 处理投票分区 - 将投票分区分配给地址 - 将前两个转换链接在一起 |
-| 演示 | 编写工作空间链 |
-| 启动工作空间 | 没有 |
-| 结束工作空间 | C:\FMEData2018\Workspaces\ServerAuthoring\AdvancedWorkflows-Ex2-CompleteA.fmw C:\FMEData2018\Workspaces\ServerAuthoring\AdvancedWorkflows-Ex2-CompleteB.fmw C:\FMEData2018\Workspaces\ServerAuthoring\AdvancedWorkflows-Ex2-CompleteC.fmw |
+<table>
+<tbody><tr>
+<td width="25%">
+<i></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+练习6.2
+</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+编写工作空间链
+</font></font></td>
+</tr>
+<tr>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数据</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">投票分区（GML（地理标记语言））</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">地址（Esri地理数据库（File Geodb API））</font></font></td>
+</tr>
+<tr>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">总体目标</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">创建工作空间以：</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- 处理投票分区</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- 将投票分区分配给地址</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- 将前两个转换链接在一起</font></font></td>
+</tr>
+<tr>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">演示</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编写工作空间链</font></font></td>
+</tr>
+<tr>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">启动工作空间</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没有</font></font></td>
+</tr>
+<tr>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">结束工作空间</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">C:\FMEData2018\Workspaces\ServerAuthoring\AdvancedWorkflows-Ex2-CompleteA.fmw
+ </font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">C:\FMEData2018\Workspaces\ServerAuthoring\AdvancedWorkflows-Ex2-CompleteB.fmw
+ </font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">C:\FMEData2018\Workspaces\ServerAuthoring\AdvancedWorkflows-Ex2-CompleteC.fmw
+</font></font></td>
+</tr>
+</tbody></table>
+
+---
 
 您是当地城市GIS部门的技术分析师。您有使用FME Desktop的丰富经验，而您的部门刚刚购买了FME Server。
 
