@@ -48,7 +48,7 @@
   * [在FME Server中使用R](5.00.fmeservercustomization/5.05.usingrwithfmeserver.md)
   * [添加共享资源](5.00.fmeservercustomization/5.06.addingsharedresources.md)
   * [数据库连接](5.00.fmeservercustomization/5.07.databaseconnections.md)
-  * [网络连接](5.00.fmeservercustomization/5.08.webconnections.md)
+  * [Web连接](5.00.fmeservercustomization/5.08.webconnections.md)
   * [练习2：Web连接](5.00.fmeservercustomization/exercise2_webconnections.md)
   * [工作空间版本控制](5.00.fmeservercustomization/5.09.workspaceversioning.md)
   * [练习3：工作空间版本控制](5.00.fmeservercustomization/exercise3_workspaceversioning.md)
