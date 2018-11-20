@@ -45,7 +45,7 @@
   * [9.6练习17-数据可视化](FMESERVER_RESTAPI9CustomApplications/9.6.exercisevisualization.md)
   * [9.7数据上传简介](9.0.chapterintroduction/9.7.introductiondataupload.md)
   * [9.8练习18-数据上传](9.0.chapterintroduction/9.8.exerciseupload.md)
-  * [9.9练习19-数据验证申请](9.0.chapterintroduction/9.9.datavalidationexercise.md)
+  * [9.9练习19-数据验证申请](FMESERVER_RESTAPI9CustomApplications/9.9.datavalidationexercise.md)
 * [第10章课程总结](10.00.coursewrapup/README.md)
   * [10.1产品信息和资源](10.00.coursewrapup/10.01.productinfo.md)
   * [10.2社区信息和资源](10.00.coursewrapup/10.02.communityinfo.md)
