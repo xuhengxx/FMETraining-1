@@ -34,13 +34,13 @@ MIME类型设置不适用于数据下载服务，但无论如何我们都会设�
 
 [![](../.gitbook/assets/img5.206.ex2.addedwriter.png)](https://github.com/xuhengxx/FMETraining-1/tree/f1cdae5373cf9425ee2d148732792713c9043d44/ServerAuthoring5SelfServeParameters/Images/Img5.206.Ex2.AddedWriter.png)
 
-未连接的要素类型属于通用写模块（Generic Writer）。
+未连接的要素类属于通用写模块（Generic Writer）。
 
   
-**3）切换要素类型**  
-我们要写入通用写模块而不是JPEG写模块，因此将连接从JPEG要素类型切换到通用要素类型。它们都标有相同的名称，因此请务必检查其属性以检查是否需要。你也可以\(应该?\)给它们添加注释，把它们区分开来。
+**3）切换要素类**  
+我们要写入通用写模块而不是JPEG写模块，因此将连接从JPEG要素类切换到通用要素类型。它们都标有相同的名称，因此请务必检查其属性以检查是否需要。你也可以\(应该?\)给它们添加注释，把它们区分开来。
 
-请勿删除JPEG写模块或其要素类型。我们需要这些，理由稍后解释。
+请勿删除JPEG写模块或其要素类。我们需要这些，理由稍后解释。
 
   
 **4）创建用户参数**  
