@@ -104,7 +104,7 @@
   * [导出项目](6.00.advancedworkflows/6.05.exportingprojects.md)
   * [删除项目](6.00.advancedworkflows/6.06.removingprojects.md)
   * [练习6.1：最佳实践工作空间分析项目](6.00.advancedworkflows/exercise1.md)
-  * [创作作业链](6.00.advancedworkflows/6.07.authoringjobchains.md)
+  * [编写作业链](6.00.advancedworkflows/6.07.authoringjobchains.md)
   * [练习6.2：创作工作空间链](6.00.advancedworkflows/exercise2.md)
   * [模块复习](6.00.advancedworkflows/6.08.modulereview.md)
   * [Q + A答案](6.00.advancedworkflows/6.09.questionanswers.md)
