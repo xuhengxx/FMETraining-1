@@ -91,7 +91,7 @@
   * [地理选择](5.00.selfserve2/5.06.geographic/README.md)
     * [按边界框的地理选择](5.00.selfserve2/5.06.geographic/5.07.boundingboxareas.md)
     * [按现有区域的地理选择](5.00.selfserve2/5.06.geographic/5.08.existingfeatureareas.md)
-    * [按特定区域的地理选择](5.00.selfserve2/5.06.geographic/5.09.adhocareas.md)
+    * [按临时区域的地理选择](5.00.selfserve2/5.06.geographic/5.09.adhocareas.md)
   * [练习5.4：数据下载系统：地理选择](5.00.selfserve2/exercise4.md)
   * [管理员疑难解答](5.00.selfserve2/5.10.troubleshootingforadministrators.md)
   * [模块复习](5.00.selfserve2/5.11.modulereview.md)
