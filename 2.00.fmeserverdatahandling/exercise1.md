@@ -8,11 +8,15 @@
 | 启动工作空间 | C:\FMEData2018\Workspaces\ServerAuthoring\DataHandling-Ex1-Begin.fmw |
 | 结束工作空间 | C:\FMEData2018\Workspaces\ServerAuthoring\DataHandling-Ex1-Complete.fmw |
 
+---
+
 对于本章的练习，您是当地城市GIS部门的技术分析师。
 
 您已经（练习1.1,1.2和1.3）创建了一个工作空间来执行转换，将其发布到FME Server，运行它以确认它的工作，共享存储库，并将工作空间设置为按计划运行。
 
 现在您有一个创建新工作空间的任务。它使用的其中一个数据集与上一个练习相同，因此我们将尝试让第二个工作空间使用属于第一个工作空间的数据。
+
+---
 
 |  Intuitive修女说...... |
 | :--- |
@@ -78,10 +82,10 @@
 [![](../.gitbook/assets/img2.206.ex1.workspacewithconnectedwriter.png)](https://github.com/xuhengxx/FMETraining-1/tree/f1cdae5373cf9425ee2d148732792713c9043d44/ServerAuthoring2DataHandling/Images/Img2.206.Ex1.WorkspaceWithConnectedWriter.png)
 
   
-**6）设置VotingPlaces要素类型名称**  
-最后，与FireHalls一样，让我们​​为VotingPlaces写模块要素类型设置要素类型名称。
+**6）设置VotingPlaces要素类名称**  
+最后，与FireHalls一样，让我们​​为VotingPlaces写模块要素类设置要素类名称。
 
-检查其参数并在要素类型名称下输入：
+检查其参数并在要素类名称下输入：
 
 ```text
 VotingPlaces- @值（NeighborhoodName）
@@ -95,13 +99,13 @@ VotingPlaces- @值（NeighborhoodName）
 **7）发布到服务器**  
 将工作空间发布到FME Server。这次您只需选择以前创建的FME Server连接，而不必再次输入参数。
 
-对于存储库，选择先前创建的Training存储库，并输入工作空间的名称（如果它还没有）。
+对于仓库，选择先前创建的Training仓库，并输入工作空间的名称（如果它还没有）。
 
 这次，不要只是选中上传所有数据文件的框，而是单击Select Files按钮：
 
 [![](../.gitbook/assets/img2.207.ex1.publishtoserver.png)](https://github.com/xuhengxx/FMETraining-1/tree/f1cdae5373cf9425ee2d148732792713c9043d44/ServerAuthoring2DataHandling/Images/Img2.207.Ex1.PublishToServer.png)
 
-此对话框列出了我们要使用工作空间发布到存储库的文件。从技术上讲，VancouverNeighborhoods数据集已经使用之前的工作空间发布到存储库，但尝试以这种方式重复使用数据并不是很好的做法（即使我们可以），因此对所有文件进行复选标记并单击“确定”：
+此对话框列出了我们要使用工作空间发布到存储库的文件。从技术上讲，VancouverNeighborhoods数据集已经使用之前的工作空间发布到仓库，但尝试以这种方式重复使用数据并不是很好的做法（即使我们可以），因此对所有文件进行复选标记并单击“确定”：
 
 [![](../.gitbook/assets/img2.208.ex1.selectallfiles.png)](https://github.com/xuhengxx/FMETraining-1/tree/f1cdae5373cf9425ee2d148732792713c9043d44/ServerAuthoring2DataHandling/Images/Img2.208.Ex1.SelectAllFiles.png)
 
@@ -109,7 +113,7 @@ VotingPlaces- @值（NeighborhoodName）
 
   
 **8）检查文件**  
-如果您可以访问FME Server计算机本身，请打开文件浏览器并浏览到存储库数据的存储位置。这里是C：\ ProgramData \ Safe Software \ FME Server \ repositories \ Training：
+如果您可以访问FME Server计算机本身，请打开文件浏览器并浏览到仓库数据的存储位置。这里是C：\ ProgramData \ Safe Software \ FME Server \ repositories \ Training：
 
 [![](../.gitbook/assets/img2.209.ex1.repositoryfilesinfilesystem.png)](https://github.com/xuhengxx/FMETraining-1/tree/f1cdae5373cf9425ee2d148732792713c9043d44/ServerAuthoring2DataHandling/Images/Img2.209.Ex1.RepositoryFilesInFilesystem.png)
 
@@ -135,7 +139,7 @@ _**注意：**_您不必复制ElectionVoting.xsd - 可以将该模式文件用�
 
 现在，在FME Server Web界面中，注销admin帐户并以用户（user/user）身份登录。
 
-因此，作为用户，我们希望使用新数据运行工作空间。我们无法发布数据，因为用户帐户没有写入该存储库的权限; 而且无论如何，由于工作空间没有以任何方式改变，我们不应该一定要经历发布过程。
+因此，作为用户，我们希望使用新数据运行工作空间。我们无法发布数据，因为用户帐户没有写入该仓库的权限; 而且无论如何，由于工作空间没有以任何方式改变，我们不应该一定要经历发布过程。
 
 因此，单击“运行工作空间”并在“Training”库中选择新发布的工作空间。但是，要使用新数据集，请单击Source GML提示右侧的浏览按钮：
 
@@ -154,6 +158,8 @@ _**注意：**_您不必复制ElectionVoting.xsd - 可以将该模式文件用�
 现在，工作空间将使用上传的数据集运行完成。
 
 但是 - 这是重要的部分 - 这只是一个临时上传。工作空间可以立即重新运行，数据仍将显示在临时上传部分，但它不是永久性解决方案。数据可能会在24小时内自动清理。
+
+---
 
 <table>
   <thead>
