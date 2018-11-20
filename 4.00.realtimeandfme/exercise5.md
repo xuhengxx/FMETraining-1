@@ -12,7 +12,7 @@
 
 |  Vector小姐说...... |
 | :--- |
-|  这个练习在练习4结束的地方继续。你必须完成练习4才能进行这个练习。 在本练习中，需要访问SMTP电子邮件服务器才能发送电子邮件。Gmail，Outlook和Yahoo! 如果您无法访问内部电子邮件服务器，那么例如Gmail, Outlook, and Yahoo!都是可接受的基于Web的解决方案。 |
+|  这个练习在练习4结束的地方继续。你必须完成练习4才能进行这个练习。 <br>在本练习中，需要访问SMTP电子邮件服务器才能发送电子邮件。Gmail，Outlook和Yahoo! 如果您无法访问内部电子邮件服务器，那么例如Gmail, Outlook, and Yahoo!都是可接受的基于Web的解决方案。 |
 
   
 **1）添加订阅**  
@@ -39,7 +39,7 @@
 
 |  注意 |
 | :--- |
-|  您可能需要创建特定于应用程序的密码才能允许FME Server登录该帐户，具体取决于您的Gmail安全设置。如果您注意到连接到您帐户的错误，请参阅此文章：[IMAP发布或电子邮件订阅不会从Gmail中读取电子邮件](https://knowledge.safe.com/articles/394/imap-publisher-not-reading-emails-from-gmail.html) 另外，如果您无权访问电子邮件帐户，请将此订阅的协议更改为“Logger”。当触发BuildingUpdateEmail主题时，这将在其中一个FME Server日志文件中添加一个条目。 |
+|  您可能需要创建特定于应用程序的密码才能允许FME Server登录该帐户，具体取决于您的Gmail安全设置。如果您注意到连接到您帐户的错误，请参阅此文章：[IMAP发布或电子邮件订阅不会从Gmail中读取电子邮件](https://knowledge.safe.com/articles/394/imap-publisher-not-reading-emails-from-gmail.html) <br>另外，如果您无权访问电子邮件帐户，请将此订阅的协议更改为“Logger”。当触发BuildingUpdateEmail主题时，这将在其中一个FME Server日志文件中添加一个条目。 |
 
   
 **2）编辑工作空间**  
