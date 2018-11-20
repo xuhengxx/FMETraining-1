@@ -100,7 +100,7 @@
   * [FME Server项目](6.00.advancedworkflows/6.01.fmeserverprojects.md)
   * [导入项目](6.00.advancedworkflows/6.02.importingprojects.md)
   * [创建项目](6.00.advancedworkflows/6.03.creatingaproject.md)
-  * [分享项目](6.00.advancedworkflows/6.04.sharingaproject.md)
+  * [共享项目](6.00.advancedworkflows/6.04.sharingaproject.md)
   * [输出项目](6.00.advancedworkflows/6.05.exportingprojects.md)
   * [删除项目](6.00.advancedworkflows/6.06.removingprojects.md)
   * [练习6.1：最佳实践工作空间分析项目](6.00.advancedworkflows/exercise1.md)
