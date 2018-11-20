@@ -96,7 +96,7 @@
   * [管理员疑难解答](5.00.selfserve2/5.10.troubleshootingforadministrators.md)
   * [模块复习](5.00.selfserve2/5.11.modulereview.md)
   * [Q + A答案](5.00.selfserve2/5.12.questionanswers.md)
-* [第6章：使用FME Server的高级工作流程](6.00.advancedworkflows/README.md)
+* [第6章：使用FME Server的高级工作流](6.00.advancedworkflows/README.md)
   * [FME Server项目](6.00.advancedworkflows/6.01.fmeserverprojects.md)
   * [导入项目](6.00.advancedworkflows/6.02.importingprojects.md)
   * [创建项目](6.00.advancedworkflows/6.03.creatingaproject.md)
