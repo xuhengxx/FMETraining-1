@@ -130,8 +130,8 @@ _**注意：**_ _如果找不到该sl3文件，请返回步骤4，确保下载�
 [![](../.gitbook/assets/img6.217.ex2.poaooncanvas.png)](https://github.com/xuhengxx/FMETraining-1/tree/f1cdae5373cf9425ee2d148732792713c9043d44/ServerAuthoring6AdvancedWorkflows/Images/Img6.217.Ex2.POAOOnCanvas.png)  
 
 
-* **删除连接：**Geodatabase:PostalAddress &gt; Geodatabase:PostalAddress
-* **添加连接：**Geodatabase:PostalAddress &gt; PointOnAreaOverlayer:Point
+* **删除连接：** Geodatabase:PostalAddress &gt; Geodatabase:PostalAddress
+* **添加连接：** Geodatabase:PostalAddress &gt; PointOnAreaOverlayer:Point
 * **添加连接：** SpatiaLite:votingdivisions &gt; PointOnAreaOverlayer:Area
 * **添加连接：** PointOnAreaOverlayer:Point &gt; Geodatabase:PostalAddress
 
@@ -175,7 +175,7 @@ _division_是区分大小写的，因为我们希望它与来自_votingdivisions
 | SpatiaLite读模块 | $\(FME\_SHAREDRESOURCE\_DATA\)\Election\Output\VotingDivisions.sl3 |
 | 地理数据库写模块 | $\(FME\_SHAREDRESOURCE\_DATA\)\Election\Output\NewAddresses.gdb.zip |
 
-**注意：**如果您将Addresses.gdb作为zip文件上传，请在参数末尾为地理数据库读模块和写模块添加.zip。
+**注意：** 如果您将Addresses.gdb作为zip文件上传，请在参数末尾为地理数据库读模块和写模块添加.zip。
 
 最后一次调整：将写模块参数Overwrite Geodatabase（覆盖地理数据库）更改为Yes：
 
