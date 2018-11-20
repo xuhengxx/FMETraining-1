@@ -56,7 +56,7 @@ C：\ FMEData2018 \资源\ CodeSmellsWorkshop \ BestPracticeAnalysis.fsproject
 
 [![](../.gitbook/assets/img6.205.ex1.projectcontents.png)](https://github.com/xuhengxx/FMETraining-1/tree/f1cdae5373cf9425ee2d148732792713c9043d44/ServerAuthoring6AdvancedWorkflows/Images/Img6.205.Ex1.ProjectContents.png)
 
-使用菜单选项检查“存储库”，“通知”和“资源”页面，以确保导入的组件确实存在。
+使用菜单选项检查“仓库”，“通知”和“资源”页面，以确保导入的组件确实存在。
 
   
 **5）测试项目**  
