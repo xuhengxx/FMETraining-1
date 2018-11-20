@@ -1,5 +1,3 @@
-# 练习6.2：创作工作空间链
-
 <table>
 <tbody><tr>
 <td width="25%">
@@ -55,7 +53,7 @@
 | 写模块格式 | SpatiaLite |
 | 写模块数据集 |  |
 
-写模块数据集现在可以保留为空。出现提示时，请选中两个源要素类型（层）。
+写模块数据集现在可以保留为空。出现提示时，请选中两个源要素类（层）。
 
 [![](../.gitbook/assets/img6.211.ex2.initialworkspace.png)](https://github.com/xuhengxx/FMETraining-1/tree/f1cdae5373cf9425ee2d148732792713c9043d44/ServerAuthoring6AdvancedWorkflows/Images/Img6.211.Ex2.InitialWorkspace.png)
 
@@ -107,7 +105,7 @@
 | 写模块格式 | Esri地理数据库（File Geodb Open API） |
 | 写模块数据集 | C:\FMEData2018\Output\Training\NewAddresses.gdb |
 
-出现提示时，请保留两个源要素类型（表）。
+出现提示时，请保留两个源要素类（表）。
 
 [![](../.gitbook/assets/img6.215.ex2.startingworkspaceb.png)](https://github.com/xuhengxx/FMETraining-1/tree/f1cdae5373cf9425ee2d148732792713c9043d44/ServerAuthoring6AdvancedWorkflows/Images/Img6.215.Ex2.StartingWorkspaceB.png)
 
@@ -121,7 +119,7 @@
 
 _**注意：**_ _如果找不到该sl3文件，请返回步骤4，确保下载了第一个工作空间的结果。_
 
-出现提示时，仅选择源要素类型（表）_votedivisions_。
+出现提示时，仅选择源要素类（表）_votedivisions_。
 
 [![](../.gitbook/assets/img6.216.ex2.selectingvotingdivisions.png)](https://github.com/xuhengxx/FMETraining-1/tree/f1cdae5373cf9425ee2d148732792713c9043d44/ServerAuthoring6AdvancedWorkflows/Images/Img6.216.Ex2.SelectingVotingDivisions.png)
 
@@ -144,7 +142,7 @@ _**注意：**_ _如果找不到该sl3文件，请返回步骤4，确保下载�
 **8）编辑写模块模式**  
  PointOnAreaOverlayer会将division属性复制到每个地址，但除非我们将其添加到输出模式，否则不会写入该属性。
 
-因此，请检查写模块要素类型PostalAddress的参数。在“用户属性”选项卡中，添加一个名为division的新属性（类型为int）：
+因此，请检查写模块要素类PostalAddress的参数。在“用户属性”选项卡中，添加一个名为division的新属性（类型为int）：
 
 [![](../.gitbook/assets/img6.218.ex2.divisionattraddedtoschema.png)](https://github.com/xuhengxx/FMETraining-1/tree/f1cdae5373cf9425ee2d148732792713c9043d44/ServerAuthoring6AdvancedWorkflows/Images/Img6.218.Ex2.DivisionAttrAddedToSchema.png)
 
@@ -231,9 +229,13 @@ _division_是区分大小写的，因为我们希望它与来自_votingdivisions
 
 请注意，两个数据集的日期/时间戳非常相似; 应首先创建VotingDivisions.sl3文件，不久之后创建NewAddresses.gdb.zip。
 
+---
+
 |  Intuitive修女说...... |
 | :--- |
 |  如前所述，有许多方法可以设置链，这只是其中之一。将数据写入固定位置（如此处）的缺点是，有人可能会更改第一个工作空间以将数据写入其他位置，从而导致第二个工作空间失败。 |
+
+---
 
 <table>
   <thead>
