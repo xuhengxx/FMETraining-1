@@ -28,7 +28,7 @@
 * [第2章：FME Server和数据处理](2.00.fmeserverdatahandling/README.md)
   * [源数据管理](2.00.fmeserverdatahandling/2.01.sourcedatamanagement.md)
   * [数据库连接](2.00.fmeserverdatahandling/2.02.databaseconnections.md)
-  * [网络连接](2.00.fmeserverdatahandling/2.03.webconnections.md)
+  * [Web连接](2.00.fmeserverdatahandling/2.03.webconnections.md)
   * [发布数据](2.00.fmeserverdatahandling/2.04.publishingdata.md)
   * [临时上传](2.00.fmeserverdatahandling/2.05.temporaryuploads.md)
   * [练习2.1：每日数据库更新：发布数据](2.00.fmeserverdatahandling/exercise1.md)
