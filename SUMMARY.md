@@ -32,7 +32,7 @@
   * [问答答案](3.00.fmeserversecurity/3.08.questionanswers.md)
 * [第4章：可扩展性和性能](4.00.scalabilityandperformance/README.md)
   * [作业队列](4.00.scalabilityandperformance/4.01.jobqueues.md)
-  * [练习1：作业队列](4.00.scalabilityandperformance/exercise1_jobqueues.md)
+  * [练习1：作业队列](ServerAdmin4Scalability/exercise1_jobqueues.md)
   * [在单独的机器上添加FME引擎](4.00.scalabilityandperformance/4.02.addingfmeenginesonaseparatemachine.md)
   * [更改FME Server数据库的数据库提供程序](4.00.scalabilityandperformance/4.03.changingdatabaseproviderforfmeserverdatabase.md)
   * [练习2：更改FME Server数据库提供程序](4.00.scalabilityandperformance/exercise2_switchingtoasqlserverdatabasewithwindowssystem.md)
