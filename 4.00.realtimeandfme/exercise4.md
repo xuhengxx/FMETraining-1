@@ -1,8 +1,6 @@
-# 练习4.4：构建更新通知系统：电子邮件发布
-
-|  练习4.4 |  建筑更新通知系统 |
+|  练习4.4 |  建筑物更新通知系统 |
 | :--- | :--- |
-| 数据 | 建筑足迹（Esri Shapefile） |
+| 数据 | 建筑物占地面积（Esri Shapefile） |
 | 总体目标 | 为更新提供电子邮件驱动的通知 |
 | 演示 | 电子邮件发布和通知服务 |
 | 启动工作空间 | C:\FMEData2018\Workspaces\ServerAuthoring\RealTime-Ex4-Begin.fmw |
