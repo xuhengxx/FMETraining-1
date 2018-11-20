@@ -78,7 +78,7 @@ _**IMAP协议**_
 
   
 **4）更新工作空间**  
-您已经在FME Workbench中创建了一个工作空间来处理来自目录监视的传入通知。让我们修改工作流程，以便它可以使用两种发布协议。在FME Workbench中打开现有工作空间C：\ FMEData2018 \ Workspaces \ ServerAuthoring \ RealTime-Ex4-Begin.fmw。
+您已经在FME Workbench中创建了一个工作空间来处理来自目录监视的传入通知。让我们修改工作流，以便它可以使用两种发布协议。在FME Workbench中打开现有工作空间C：\ FMEData2018 \ Workspaces \ ServerAuthoring \ RealTime-Ex4-Begin.fmw。
 
 打开JSONFlattener参数，并在Attributes to Expose下添加_imap\_publisher\_attachment {0}_和_email\_publisher\_attachment {0}_：
 
