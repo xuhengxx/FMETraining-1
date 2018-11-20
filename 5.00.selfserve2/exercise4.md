@@ -1,5 +1,3 @@
-# 练习5.4：数据下载系统：地理选择
-
 |  练习4 |  数据下载系统：地理选择 |
 | :--- | :--- |
 | 数据 | 正射影像（GeoTIFF） |
@@ -7,6 +5,8 @@
 | 演示 | 按地理区域处理选择 |
 | 启动工作空间 | C:\FMEData2018\Workspaces\ServerAuthoring\SelfServe2-Ex4-Begin.fmw |
 | 结束工作空间 | C:\FMEData2018\Workspaces\ServerAuthoring\SelfServe2-Ex4-Complete.fmw |
+
+---
 
 作为一个城市GIS部门的技术分析师，您刚开始采取措施允许其他部门下载正射影像数据，而不是要求您为他们创建正射影像数据。他们的请求不仅会得到更快的处理，而且您还可以花更少的时间完成这项任务。
 
@@ -18,16 +18,15 @@
 
 要将数据剪切到特定的街区，首先需要为这些街区要素准备一个读模块，因此这是第一步......
 
-  
 **2）添加读模块**  
 选择读模块&gt;添加读模块并使用以下设置：
 
 | 读模块格式 | 谷歌KML |
 | :--- | :--- |
 | 读模块数据集 | C:\FMEData2018\Data\Boundaries\VancouverNeighborhoods.kml |
-| 工作流程 | 个别要素类型 |
+| 工作流程 | 个别要素类 |
 
-如果执行上一个练习，请务必设置工作流程选项，因为它可能默认为不同的值。单击“确定”，然后在出现提示时，仅选择“社区（Neighborhoods）”的要素类型：
+如果执行上一个练习，请务必设置工作流选项，因为它可能默认为不同的值。单击“确定”，然后在出现提示时，仅选择“街区（Neighborhoods）”的要素类：
 
 [![](../.gitbook/assets/img5.225.ex4.neighborhoodft.png)](https://github.com/xuhengxx/FMETraining-1/tree/f1cdae5373cf9425ee2d148732792713c9043d44/ServerAuthoring5SelfServeParameters/Images/Img5.225.Ex4.NeighborhoodFT.png)
 
@@ -59,11 +58,11 @@
 
 |  技巧 |
 | :--- |
-|  或者，您可以从数据集导入值，而不是手动键入所有属性值。  在“选择列表”中，单击“导入...”。在“导入向导”中，再次选择VancouverNeighborhoods.kml文件，然后为“导入自”下拉列表选择“属性值”。接下来，选择“街区”作为“要素类型”。最后，对于“选择列表”，从下拉列表中选择NeighborhoodName，然后单击导入。 |
+|  或者，您可以从数据集导入值，而不是手动键入所有属性值。  <br><br>在“选择列表”中，单击“导入...”。在“导入向导”中，再次选择VancouverNeighborhoods.kml文件，然后为“导入自”下拉列表选择“属性值”。接下来，选择“街区”作为“要素类”。最后，对于“选择列表”，从下拉列表中选择NeighborhoodName，然后单击导入。 |
 
   
 **4）添加Tester**  
-现在我们需要根据用户的选择过滤街区数据。因此，将Tester转换器添加到工作空间，连接到街区要素类型：
+现在我们需要根据用户的选择过滤街区数据。因此，将Tester转换器添加到工作空间，连接到街区要素类：
 
 [![](../.gitbook/assets/img5.226.ex4.testertransformer.png)](https://github.com/xuhengxx/FMETraining-1/tree/f1cdae5373cf9425ee2d148732792713c9043d44/ServerAuthoring5SelfServeParameters/Images/Img5.226.Ex4.TesterTransformer.png)
 
@@ -94,7 +93,7 @@
 检查参数。要检查的唯一参数是与栅格数据特别相关的参数：Preserve Clippee Extents。如果尚未设置此参数，则将其设置为“否”。
 
   
-**7）发布到FME服务器**  
+**7）发布到FME Server**  
 保存工作空间并将其发布到FME Server。将其注册到数据下载服务，确保单击“编辑”按钮以编辑服务属性。在该对话框中将写模块设置为“Output \[GENERIC\]”（不是“Output \[JPEG\]”）。
 
 在FME Server上运行工作空间。您现在应该能够选择所有源图块并将它们剪切到选定的街区，就像这样（这里是市中心区域）：
