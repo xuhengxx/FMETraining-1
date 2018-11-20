@@ -30,7 +30,7 @@
 
 接下来，将作业优先级指定为1。
 
-![]./Images/4.202.Ex1.JobQueue_SelectEngine.png)
+![](./Images/4.202.Ex1.JobQueue_SelectEngine.png)
 
 要保存编辑，请再次单击编辑按钮。
 
@@ -42,7 +42,7 @@
 
 添加**Creator**转换器并将其连接到**Logger**转换器。
 
-![](https://github.com/xuhengxx/FMETraining-1/blob/Server-Admin-2018/ServerAdmin4Scalability/Images/4.203.Ex1.JobQueue_Workspace.png)
+![](./Images/4.203.Ex1.JobQueue_Workspace.png)
 
   
 **4）发布到FME Server**  
@@ -52,7 +52,7 @@
 
 在“发布到FME服务器向导”中提示时，连接到FME Server，然后将工作空间发布到：
 
-* **仓库名称：**Training
+* **仓库名称：** Training
 * **工作空间名称：** JobQueue\_TestJob.fmw
 * **服务：**Job Submitter
 
@@ -68,12 +68,12 @@
 
 在“运行工作空间”页面上，填写如下参数：
 
-* **仓库：**Training
+* **仓库：** Training
 * **工作空间：** JobQueue\_TestJob
 
 接下来，展开“ 运行工作空间”页面上的“ **高级”**选项。将_Job Queues_参数设置为**QuickTranslations**（步骤1中创建的队列的名称）：
 
-![]./Images/4.205.Ex1.RunWorkspace_JobQueue.png)
+![](./Images/4.205.Ex1.RunWorkspace_JobQueue.png)
 
 单击**“**运行工作空间”页面底部的“运行”。
 
