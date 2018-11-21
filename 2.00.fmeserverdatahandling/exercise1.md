@@ -48,9 +48,9 @@
 
   
 **3）删除Firehalls**  
-对于此工作空间，我们需要处理选举数据而不是消防站（FireHalls），因此首先删除FireHalls的写模块要素类型，然后删除读模块要素类型。
+对于此工作空间，我们需要处理选举数据而不是消防站（FireHalls），因此首先删除FireHalls的写模块要素类，然后删除读模块要素类。
 
-删除读模块要素类型时，系统将询问您是否要删除整个读模块。我们可以重用它，但为了简单起见，请单击是。
+删除读模块要素类时，系统将询问您是否要删除整个读模块。我们可以重用它，但为了简单起见，请单击是。
 
 工作空间现在看起来像这样：
 
@@ -64,7 +64,7 @@
 | :--- | :--- |
 | 读模块数据集 | C:\FMEData2018\Data\Elections\ElectionVoting.gml |
 
-单击“确定”将读模块添加到工作空间。提示时，仅选择VotingPlaces要素类型，而不是VotingDivisions：
+单击“确定”将读模块添加到工作空间。提示时，仅选择VotingPlaces要素类，而不是VotingDivisions：
 
 [![](../.gitbook/assets/img2.203.ex1.addreaderfttr.png)](https://github.com/xuhengxx/FMETraining-1/tree/f1cdae5373cf9425ee2d148732792713c9043d44/ServerAuthoring2DataHandling/Images/Img2.203.Ex1.AddReaderFTTR.png)
 
@@ -74,7 +74,7 @@
 
 [![](../.gitbook/assets/img2.204.ex1.rightclickaddtowriter.png)](https://github.com/xuhengxx/FMETraining-1/tree/f1cdae5373cf9425ee2d148732792713c9043d44/ServerAuthoring2DataHandling/Images/Img2.204.Ex1.RightClickAddToWriter.png)
 
-现在将有一个VotingPlaces数据集的读写模块要素类型：
+现在将有一个VotingPlaces数据集的读写模块要素类：
 
 [![](../.gitbook/assets/img2.205.ex1.workspacewithwriter.png)](https://github.com/xuhengxx/FMETraining-1/tree/f1cdae5373cf9425ee2d148732792713c9043d44/ServerAuthoring2DataHandling/Images/Img2.205.Ex1.WorkspaceWithWriter.png)
 
@@ -106,7 +106,7 @@ VotingPlaces- @值（NeighborhoodName）
 
 [![](../.gitbook/assets/img2.207.ex1.publishtoserver.png)](https://github.com/xuhengxx/FMETraining-1/tree/f1cdae5373cf9425ee2d148732792713c9043d44/ServerAuthoring2DataHandling/Images/Img2.207.Ex1.PublishToServer.png)
 
-此对话框列出了我们要使用工作空间发布到存储库的文件。从技术上讲，VancouverNeighborhoods数据集已经使用之前的工作空间发布到仓库，但尝试以这种方式重复使用数据并不是很好的做法（即使我们可以），因此对所有文件进行复选标记并单击“确定”：
+此对话框列出了我们要使用工作空间发布到仓库的文件。从技术上讲，VancouverNeighborhoods数据集已经使用之前的工作空间发布到仓库，但尝试以这种方式重复使用数据并不是很好的做法（即使我们可以），因此对所有文件进行复选标记并单击“确定”：
 
 [![](../.gitbook/assets/img2.208.ex1.selectallfiles.png)](https://github.com/xuhengxx/FMETraining-1/tree/f1cdae5373cf9425ee2d148732792713c9043d44/ServerAuthoring2DataHandling/Images/Img2.208.Ex1.SelectAllFiles.png)
 
@@ -120,7 +120,7 @@ VotingPlaces- @值（NeighborhoodName）
 
 您将看到每个工作空间都保存到单独的文件夹中。如果您检查文件夹的内容，您将在其中看到上传的数据集。
 
-这是工作空间访问随其发布的文件的方式。通过一些人工操作，它还可以访问与同一存储库中的另一个工作空间一起存储的文件。
+这是工作空间访问随其发布的文件的方式。通过一些人工操作，它还可以访问与同一仓库中的另一个工作空间一起存储的文件。
 
   
 **9）运行工作空间**  
