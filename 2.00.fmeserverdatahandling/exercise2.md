@@ -52,7 +52,7 @@
 | 写模块数据集 | C：\ FMEData2018 \输出\培训\ DepartmentData.gdb |
 | 要素类或表定义 | 无（高级） |
 
-我们想要不添加任何要素类型的原因是我们可以从NULL写模块中移动现有的要素类型。因此，当您单击“确定”时，工作空间看起来没有什么不同，但“导航”窗口中将有一个新的写模块：
+我们想要不添加任何要素类的原因是我们可以从NULL写模块中移动现有的要素类。因此，当您单击“确定”时，工作空间看起来没有什么不同，但“导航”窗口中将有一个新的写模块：
 
 [![](../.gitbook/assets/img2.217.ex2.addedgeodatabasewriter.png)](https://github.com/xuhengxx/FMETraining-1/tree/f1cdae5373cf9425ee2d148732792713c9043d44/ServerAuthoring2DataHandling/Images/Img2.217.Ex2.AddedGeodatabaseWriter.png)
 
@@ -160,7 +160,7 @@ $（FME_SHAREDRESOURCE_DATA）/Election/Output/DepartmentData.gdb
         </p>
         <ul>
           <li>创建资源文件夹并将数据上传到它们</li>
-          <li>将写模块添加到工作空间并从另一个写模块移动功能类型</li>
+          <li>将写模块添加到工作空间并从另一个写模块移动要素类</li>
           <li>运行工作空间并从资源文件夹中选择数据</li>
           <li>编辑工作空间以永久使用资源文件夹</li>
           <li>删除参数以防止最终用户更改它们</li>
