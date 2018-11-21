@@ -35,9 +35,9 @@
 一位同事正在研究工作空间，以计算该市所有地址的海啸洪水风险。风险被判定为靠近海岸线和海拔高度的组合，并使用此表计算：
 
 <table>
-<tr><td></td><td></td><td colspan="3"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">海拔（海拔米数）</font></font></td></tr>
-<tr><td></td><td></td><td align="center"><font style="vertical-align: inherit;">0-10m</font></td><td align="center"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">10-25m</font></td><td align="center"><font style="vertical-align: inherit;">25-60m</font></td></tr>
-<tr><td rowspan="3"><font style="vertical-align: inherit;">距离海岸线（米）的距离</font></td><td align="center"><font style="vertical-align: inherit;">100米</font></td><td align="center"><font style="vertical-align: inherit;">1</font></td><td align="center"><font style="vertical-align: inherit;">2</font></td><td align="center"><font style="vertical-align: inherit;">3</font></td></tr>
+<tr><td></td><td></td><td colspan="3"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">海拔（在海平面以上的米数）</font></font></td></tr>
+<tr><td></td><td></td><td align="center"><font style="vertical-align: inherit;">0-10米</font></td><td align="center"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">10-25米</font></td><td align="center"><font style="vertical-align: inherit;">25-60米</font></td></tr>
+<tr><td rowspan="3"><font style="vertical-align: inherit;">距离海岸线的距离</font></td><td align="center"><font style="vertical-align: inherit;">100米</font></td><td align="center"><font style="vertical-align: inherit;">1</font></td><td align="center"><font style="vertical-align: inherit;">2</font></td><td align="center"><font style="vertical-align: inherit;">3</font></td></tr>
 <tr><td align="center"><font style="vertical-align: inherit;">200米</font></td><td align="center"><font style="vertical-align: inherit;">2</font></td><td align="center"><font style="vertical-align: inherit;">3</font></td><td align="center"><font style="vertical-align: inherit;">4</font></td></tr>
 <tr><td align="center"><font style="vertical-align: inherit;">300米</font></td><td align="center"><font style="vertical-align: inherit;">3</font></td><td align="center"><font style="vertical-align: inherit;">4</font></td><td align="center"><font style="vertical-align: inherit;">5</font></td></tr>
 </table>
