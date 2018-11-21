@@ -75,11 +75,11 @@
   
 通过Windows“开始”菜单上的“Web Interface”选项或直接在Web浏览器中打开FME Server Web界面，然后使用用户名和密码_admin_登录。
 
-单击左侧菜单中的“ **存储库** ”。这将列出所有存储库。接下来，单击您在步骤5中创建的存储库**版本测试**旁边的复选框，然后单击“ **历史记录”**按钮。
+单击左侧菜单中的“ **仓库** ”。这将列出所有仓库。接下来，单击您在步骤5中创建的仓储库**版本测试**旁边的复选框，然后单击“ **历史记录”**按钮。
 
 [![](../.gitbook/assets/5.218.ex2.respositoryversion.png)](https://github.com/xuhengxx/FMETraining-1/tree/c60c1e291fd9e762b26517c54e4fd7ea9f748055/ServerAdmin5Customization/Images/5.218.Ex2.RespositoryVersion.png)
 
-应显示以下对话框，显示此存储库的最新版本控制条目。
+应显示以下对话框，显示此仓库的最新版本控制条目。
 
 [![](../.gitbook/assets/5.219.ex2.respositoryversionhistory.png)](https://github.com/xuhengxx/FMETraining-1/tree/c60c1e291fd9e762b26517c54e4fd7ea9f748055/ServerAdmin5Customization/Images/5.219.Ex2.RespositoryVersionHistory.png)。
 
