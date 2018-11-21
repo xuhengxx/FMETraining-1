@@ -49,7 +49,7 @@
     * [练习6](3.00.labexercises/3.05.datatransformation/3.11.exercise6.md)
   * [数据集成场景](3.00.labexercises/3.12.dataintegrationscenario/README.md)
     * [场景演练](3.00.labexercises/3.12.dataintegrationscenario/3.13.scenariowalkthrough.md)
-    * [附加程序](3.00.labexercises/3.12.dataintegrationscenario/3.14.additionalprocedures.md)
+    * [附加过程](3.00.labexercises/3.12.dataintegrationscenario/3.14.additionalprocedures.md)
   * [实验室问题](3.00.labexercises/3.15.labquestions.md)
   * [产品信息](3.00.labexercises/3.16.productinfo.md)
   * [社区信息](3.00.labexercises/3.17.communityinfo.md)
