@@ -3,7 +3,7 @@
 |  练习2 |  数据流系统 |
 | :--- | :--- |
 | 数据 | 正射影像（GeoTIFF） |
-| 总体目标 | 为正射影像创建FME服务器数据流系统 |
+| 总体目标 | 为正射影像创建FME Server数据流系统 |
 | 演示 | 数据流 |
 | 启动工作空间 | C:\FMEData2018\Workspaces\ServerAuthoring\SelfServe1-Ex2-Begin.fmw |
 | 结束工作空间 | C:\FMEData2018\Workspaces\ServerAuthoring\SelfServe1-Ex2-Complete.fmw |
@@ -17,7 +17,7 @@
 从练习1或上面列出的开始工作空间打开工作空间。
 
   
-**2）发布到FME服务器**  
+**2）发布到FME Server**  
   
 将工作空间重新发布到FME Server。
 
@@ -43,12 +43,12 @@
 
 |  2018.1的新变化 |
 | :--- |
-|  额外的World文件不再影响2018.1中的数据流。如果您正在FME Server 2018.1+上完成此练习，那么如果数据按预期流式传输，您可以在此处结束。如果您收到了下载文件，请继续执行步骤4。 |
+|  额外的World文件（坐标信息文件）不再影响2018.1中的数据流。如果您正在FME Server 2018.1+上完成此练习，那么如果数据按预期流式传输，您可以在此处结束。如果您收到了下载文件，请继续执行步骤4。 |
 
   
-**4）关闭世界文件创建**  
+**4）关闭World文件创建**  
   
-要真正流式传输数据，我们应该关闭工作空间中的世界文件创建。检查JPEG写模块的要素类型的属性，并将Generate World File参数设置为No：
+要真正流式传输数据，我们应该关闭工作空间中的World文件创建。检查JPEG写模块的要素类的属性，并将Generate World File参数设置为No：
 
 [![](../.gitbook/assets/img3.209.ex2.turnoffworldfile.png)](https://github.com/xuhengxx/FMETraining-1/tree/f1cdae5373cf9425ee2d148732792713c9043d44/ServerAuthoring3SelfServeBasics/Images/Img3.209.Ex2.TurnOffWorldFile.png)
 
