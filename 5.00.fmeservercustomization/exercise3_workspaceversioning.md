@@ -1,6 +1,4 @@
-# 练习3：工作空间版本控制
-
-|  练习2 |  版本控制工作空间 |
+|  练习3 |  版本控制工作空间 |
 | :--- | :--- |
 | 总体目标 | 版本控制工作空间 |
 | 演示 | 如何对已发布到FME Server的工作空间进行版本控制。 |
@@ -16,7 +14,7 @@
 |  如果您已完成Configure for HTTPS练习，请记住，连接到FME Server的URL现在是https：// localhost：8443 / fmeserver而不是http：// localhost / fmeserver！ |
 
   
-**1）登录FME服务器**  
+**1）登录FME Server**  
 通过Windows“开始”菜单上的“Web Interface”选项或直接在Web浏览器中打开FME Server Web界面，然后使用用户名和密码_admin_登录。
 
   
@@ -47,11 +45,11 @@
 
   
 **5）发布到FME Server**  
-选择“文件”菜单下的“ _发布到FME Server_ ”。使用“发布到FME Server向导”将工作空间放在名为“ **版本测试\(Version Test\)”**的新存储库中。如果不存在，请单击“ **新建...”**按钮创建新的存储库。
+选择“文件”菜单下的“ _发布到FME Server_ ”。使用“发布到FME Server向导”将工作空间放在名为“ **版本测试\(Version Test\)”**的新仓库中。如果不存在，请单击“ **新建...”**按钮创建新的仓库。
 
 [![](../.gitbook/assets/5.213.ex2.createrepository.png)](https://github.com/xuhengxx/FMETraining-1/tree/c60c1e291fd9e762b26517c54e4fd7ea9f748055/ServerAdmin5Customization/Images/5.213.Ex2.CreateRepository.png)
 
-单击“确定”以创建新存储库并返回“发布到FME Server”对话框。
+单击“确定”以创建新仓库并返回“发布到FME Server”对话框。
 
 接下来，您应该在“发布到FME Server”对话框中看到一个名为**Commit ...**的新按钮。
 
@@ -92,7 +90,7 @@
 
 如果需要下载版本控制工作空间，并且要检索特定版本，则必须从Web UI执行此操作。FME Workbench无法通过下载向导选择版本控制工作空间。下载我们刚刚发布的工作空间版本0.1。
 
-以_管理员_身份重新登录到FME Server ，在FME Server Web UI中，单击左侧菜单中的**Repositories**。这将列出所有存储库。接下来单击**Version Test**存储库。这将显示此存储库中的工作空间。您应该只看到名为_VersionControlTest.fmw的_工作空间。
+以_管理员_身份重新登录到FME Server ，在FME Server Web UI中，单击左侧菜单中的**Repositories**。这将列出所有仓库。接下来单击**Version Test**仓库。这将显示此仓库中的工作空间。您应该只看到名为_VersionControlTest.fmw的_工作空间。
 
 让我们再次查看版本历史记录。单击工作空间旁边的复选框，然后单击“ **历史记录”**按钮。
 
@@ -119,7 +117,7 @@
 
 保存工作空间并运行工作空间。接下来，让我们将它发布到FME Server。
 
-这次，**请勿**使用发布向导上的提交\( commit \)按钮。您将收到存储库中已存在工作空间的警告，这是正常的，因为我们已启用版本控制。单击"是"以_重写_工作空间。我们将在下一步中使用Web UI提交工作空间。
+这次，**请勿**使用发布向导上的提交\( commit \)按钮。您将收到仓库中已存在工作空间的警告，这是正常的，因为我们已启用版本控制。单击"是"以_重写_工作空间。我们将在下一步中使用Web UI提交工作空间。
 
 [![](../.gitbook/assets/5.224.ex2.publishtofmeserver2.png)](https://github.com/xuhengxx/FMETraining-1/tree/c60c1e291fd9e762b26517c54e4fd7ea9f748055/ServerAdmin5Customization/Images/5.224.Ex2.PublishtoFMEServer2.png)
 
