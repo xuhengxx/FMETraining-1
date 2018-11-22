@@ -27,7 +27,7 @@
   * [要素缓存](2.00.advancedworkspacedesign/2.01.featurecaching.md)
   * [部分运行](2.00.advancedworkspacedesign/2.02.partialruns.md)
   * [书签](2.00.advancedworkspacedesign/2.03.bookmarks.md)
-  * [练习：公园中的公共艺术 - 要素缓存](2.00.advancedworkspacedesign/2.exercise1.md)
+  * [练习：公园中的公共艺术品 - 要素缓存](2.00.advancedworkspacedesign/2.exercise1.md)
   * [日志文件解析](2.00.advancedworkspacedesign/2.04.logfileinterpretation/README.md)
     * [日志文件命令部分](2.00.advancedworkspacedesign/2.04.logfileinterpretation/2.05.logcommandlinesection.md)
     * [日志文件配置和设置部分](2.00.advancedworkspacedesign/2.04.logfileinterpretation/2.06.logconfigandsetupsection.md)
