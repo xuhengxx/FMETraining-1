@@ -34,7 +34,7 @@
     * [日志文件变换/转换部分](2.00.advancedworkspacedesign/2.04.logfileinterpretation/2.07.translationtransformationsection.md)
     * [日志文件摘要部分](2.00.advancedworkspacedesign/2.04.logfileinterpretation/2.08.logsummarysection.md)
     * [日志文件时间戳解析](2.00.advancedworkspacedesign/2.04.logfileinterpretation/2.09.logtimings.md)
-  * [练习：公园的公共艺术 - 日志文件](2.00.advancedworkspacedesign/2.exercise2.md)
+  * [练习：公园的公共艺术品 - 日志文件](2.00.advancedworkspacedesign/2.exercise2.md)
   * [性能和FME](2.00.advancedworkspacedesign/2.10.performanceandfme/README.md)
     * [64位FME](2.00.advancedworkspacedesign/2.10.performanceandfme/2.11.64bitfme.md)
     * [常用性能技巧](2.00.advancedworkspacedesign/2.10.performanceandfme/2.12.generalperformancetips.md)
