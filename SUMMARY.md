@@ -61,7 +61,7 @@
     * [使用集成转换器进行读取/写入](3.00.workspacedesign/3.04.readingwriting/3.08.noreaderswriters.md)
     * [练习：住宅垃圾收集区](3.00.workspacedesign/3.04.readingwriting/3.exercise2.md)
   * [工作空间测试技术](3.00.workspacedesign/3.09.workspacetesting/README.md)
-    * [综合检查](3.00.workspacedesign/3.09.workspacetesting/3.10.integratedinspection.md)
+    * [集成检查](3.00.workspacedesign/3.09.workspacetesting/3.10.integratedinspection.md)
     * [部分运行](3.00.workspacedesign/3.09.workspacetesting/3.11.partialruns.md)
     * [练习：住宅垃圾收集区](3.00.workspacedesign/3.09.workspacetesting/3.exercise3.md)
   * [模块复习](3.00.workspacedesign/3.12.modulereview.md)
