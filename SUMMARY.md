@@ -102,7 +102,7 @@
     * [对象布局](5.00.bestpractice/5.01.style/5.08.objectlayout.md)
     * [连接样式](5.00.bestpractice/5.01.style/5.09.connectionstyles.md)
     * [练习：FME风格指南](5.00.bestpractice/5.01.style/5.exercise1.md)
-  * [方法伦](5.00.bestpractice/5.10.methodology/README.md)
+  * [方法](5.00.bestpractice/5.10.methodology/README.md)
     * [维护方法](5.00.bestpractice/5.10.methodology/5.11.maintenancemethodology.md)
     * [性能方法](5.00.bestpractice/5.10.methodology/5.12.performancemethodology.md)
     * [练习：设计模式](5.00.bestpractice/5.10.methodology/5.exercise2.md)
