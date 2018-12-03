@@ -1,12 +1,12 @@
 # 内容转换
 
-内容转换是对要素组件进行操作的内容转换。
+内容转换是对要素组件进行的一些操作。
 
 ## 什么是要素？
 
 一个_**要素**_在FME是转换中的单个项目。对于空间数据，要素通常是几何对象（具有或不具有一组相关属性）。
 
-对于表格数据，要素通常是数据库中的记录，电子表格中的行或文本文件中的行。每个列或单元称为_**属性**_。
+对于表格数据，要素通常是数据库中的记录，电子表格中的行或文本文件中的行。每个列或单元被称为_**属性**_。
 
 [![](../../.gitbook/assets/img2.026.featuregraphic.png)](https://github.com/safesoftware/FMETraining/blob/Desktop-Basic-2018/DesktopBasic2Transformation/Images/Img2.026.FeatureGraphic.png)
 
@@ -18,14 +18,14 @@ FME中的要素具有灵活的通用表示，与其源自的格式无关。这�
 
 ## 几何转换
 
-_**几何转换**_是重构FME要素的空间组件的行为。换句话说，要素的几何形状经历某种形式的改变以产生不同的输出。
+_**几何转换**_是重构FME要素的空间组件的行为。换句话说，要素的几何对象经历某种形式的改变而产生了不同的输出。
 
 几何转换的一些示例包括以下内容：
 
 * **泛化** - 一种重构数据的制图过程，因此可以在给定的地图比例下轻松显示
 * **变形** - 调整一组要素的大小和形状，以更接近地匹配一组参考数据
-* **拓扑计算** - 将一组线性要素转换为节点/线结构
-* **线交叉** - 计算**线要素**之间的交点
+* **拓扑计算** - 将一组线形要素转换为节点/线结构
+* **线相交** - 计算**线要素**之间的交叉点
 
 [![](../../.gitbook/assets/img2.027.geometrictransformation.png)](https://github.com/safesoftware/FMETraining/blob/Desktop-Basic-2018/DesktopBasic2Transformation/Images/Img2.027.GeometricTransformation.png)
 
@@ -58,5 +58,5 @@ _**属性转换**_是重构FME要素的表格组件的行为。换句话说，�
 
 |  Vector小姐说...... |
 | :--- |
-|  你想念我吗？想念？好吧，我会为你解决一些新问题！  <br><br>哪三种颜色代表检查过，需要检查和取消设置转换器对象的参数？  <br>[1.蓝色，黄色，红色](http://52.73.3.37/fmedatastreaming/Manual/QAResponse2017.fmw?chapter=2&question=2&answer=1&DestDataset_TEXTLINE=C%3A%5CFMEOutput%5CQAResponse.html) <br>[2.绿色，黄色，红色](http://52.73.3.37/fmedatastreaming/Manual/QAResponse2017.fmw?chapter=2&question=2&answer=2&DestDataset_TEXTLINE=C%3A%5CFMEOutput%5CQAResponse.html) <br>[3.红色，绿色，蓝色](http://52.73.3.37/fmedatastreaming/Manual/QAResponse2017.fmw?chapter=2&question=2&answer=3&DestDataset_TEXTLINE=C%3A%5CFMEOutput%5CQAResponse.html) [<br>4.绿色，蓝色，黄色](http://52.73.3.37/fmedatastreaming/Manual/QAResponse2017.fmw?chapter=2&question=2&answer=4&DestDataset_TEXTLINE=C%3A%5CFMEOutput%5CQAResponse.html)  <br><br>如果我使用转换器去除多边形边界的不规则（如自相交环），它是什么类型的转换？  <br>[1.属性的结构转换](http://52.73.3.37/fmedatastreaming/Manual/QAResponse2017.fmw?chapter=2&question=3&answer=1&DestDataset_TEXTLINE=C%3A%5CFMEOutput%5CQAResponse.html) <br>[2.几何的结构转换](http://52.73.3.37/fmedatastreaming/Manual/QAResponse2017.fmw?chapter=2&question=3&answer=2&DestDataset_TEXTLINE=C%3A%5CFMEOutput%5CQAResponse.html) <br>[3.属性的内容转换](http://52.73.3.37/fmedatastreaming/Manual/QAResponse2017.fmw?chapter=2&question=3&answer=3&DestDataset_TEXTLINE=C%3A%5CFMEOutput%5CQAResponse.html) <br>[4.内容几何的转换](http://52.73.3.37/fmedatastreaming/Manual/QAResponse2017.fmw?chapter=2&question=3&answer=4&DestDataset_TEXTLINE=C%3A%5CFMEOutput%5CQAResponse.html) |
+|  你想念我吗？想念？好吧，我会为你解决一些新问题！  <br><br>哪三种颜色代表检查过，需要检查和取消设置转换器对象的参数？  <br>[1.蓝色，黄色，红色](http://52.73.3.37/fmedatastreaming/Manual/QAResponse2017.fmw?chapter=2&question=2&answer=1&DestDataset_TEXTLINE=C%3A%5CFMEOutput%5CQAResponse.html) <br>[2.绿色，黄色，红色](http://52.73.3.37/fmedatastreaming/Manual/QAResponse2017.fmw?chapter=2&question=2&answer=2&DestDataset_TEXTLINE=C%3A%5CFMEOutput%5CQAResponse.html) <br>[3.红色，绿色，蓝色](http://52.73.3.37/fmedatastreaming/Manual/QAResponse2017.fmw?chapter=2&question=2&answer=3&DestDataset_TEXTLINE=C%3A%5CFMEOutput%5CQAResponse.html) [<br>4.绿色，蓝色，黄色](http://52.73.3.37/fmedatastreaming/Manual/QAResponse2017.fmw?chapter=2&question=2&answer=4&DestDataset_TEXTLINE=C%3A%5CFMEOutput%5CQAResponse.html)  <br><br>如果我使用转换器去除多边形边界的不规则（如自相交环），它是什么类型的转换？  <br>[1.属性的结构转换](http://52.73.3.37/fmedatastreaming/Manual/QAResponse2017.fmw?chapter=2&question=3&answer=1&DestDataset_TEXTLINE=C%3A%5CFMEOutput%5CQAResponse.html) <br>[2.几何对象的结构转换](http://52.73.3.37/fmedatastreaming/Manual/QAResponse2017.fmw?chapter=2&question=3&answer=2&DestDataset_TEXTLINE=C%3A%5CFMEOutput%5CQAResponse.html) <br>[3.属性的内容转换](http://52.73.3.37/fmedatastreaming/Manual/QAResponse2017.fmw?chapter=2&question=3&answer=3&DestDataset_TEXTLINE=C%3A%5CFMEOutput%5CQAResponse.html) <br>[4.几何对象的内容转换](http://52.73.3.37/fmedatastreaming/Manual/QAResponse2017.fmw?chapter=2&question=3&answer=4&DestDataset_TEXTLINE=C%3A%5CFMEOutput%5CQAResponse.html) |
 
