@@ -34,7 +34,7 @@
     * [模式映射](2.00.datatransformation/2.01.whatisdatatransformation/2.04.schemamapping.md)
     * [练习：地面维护项目 - 模式编辑](2.00.datatransformation/2.01.whatisdatatransformation/2.exercise1.md)
   * [用转换器进行转换](2.00.datatransformation/2.05.transformationwithtransformers/README.md)
-    * [练习：地面维护项目 - 结构转型](2.00.datatransformation/2.05.transformationwithtransformers/2.exercise2.md)
+    * [练习：地面维护项目 - 结构转换](2.00.datatransformation/2.05.transformationwithtransformers/2.exercise2.md)
   * [内容转换](2.00.datatransformation/2.06.contenttransformation/README.md)
     * [转换器串联](2.00.datatransformation/2.06.contenttransformation/2.07.transformersinseries.md)
     * [练习：地面维护项目 - 计算统计数据](2.00.datatransformation/2.06.contenttransformation/2.exercise3.md)
