@@ -27,4 +27,3 @@
 要完成此培训，您需要安装许可版本的FME Desktop。您可以申请[免费试用](https://www.safe.com/fme/fme-desktop/trial-download/)或者可以申请[授权许可](https://www.safe.com/free-fme-licenses/)。培训材料使用FME Desktop 2019.0生成，但许多步骤适用于旧版本。
 
 您可以[这里](https://s3.amazonaws.com/FMEData/FMEData2019.zip)下载数据。下载后，将数据提取到C:\FMEData2019。
-
